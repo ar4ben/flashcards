@@ -1,0 +1,8 @@
+<h2>Cards</h2>
+<% @cards.each do |card| %>
+	<p>
+		<span><%= card.original_text %> | </span>
+		<span><%= card.translated_text %> | </span>
+		<span>Пересмотрено <%= card.review_date.strftime("%d/%m/%Y") %></span>
+	</p>
+<%end%>
