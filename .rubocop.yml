@@ -2,3 +2,8 @@ inherit_from: .rubocop_todo.yml
 Cops:
   Exclude:
     - db/schema.rb
+    - app/assests/javascripts/bootstrap.js
+StringLiterals:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
