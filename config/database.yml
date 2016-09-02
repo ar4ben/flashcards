@@ -26,3 +26,4 @@ test:
   adapter: postgresql
   <<: *default
   database: flash_test
+  
