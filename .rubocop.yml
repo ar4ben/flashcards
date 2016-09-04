@@ -7,3 +7,5 @@ StringLiterals:
   Enabled: false
 Metrics/LineLength:
   Enabled: false
+Style/Tab:
+  Enabled: false
