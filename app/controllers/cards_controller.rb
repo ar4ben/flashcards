@@ -26,11 +26,11 @@ class CardsController < ApplicationController
 
   def update
     @card = Card.find(params[:id])
-  	if @card.update(cards_params)
-  	  redirect_to @card
-  	else
-  	  render 'edit'
-  	end
+    if @card.update(cards_params)
+      redirect_to @card
+    else
+      render 'edit'
+    end
   end
 
   def destroy
