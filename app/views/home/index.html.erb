@@ -1,4 +1,13 @@
  <p style="font-size: 22px;">
         Первый в мире удобный менеджер флеш-карточек. Именно так.
  </p>
- 
+ <% flash.each do |name, msg| %>
+  <%= content_tag :p, msg, class: "alert-info" %>
+ <% end -%>
+ <p><strong>Случайная карточка:</strong></p>
+ <p><strong><%= @card.translated_text %></strong></p>
+ <%= simple_form_for :random_card, url: '/home', method: :post do |f|%>  
+    <%= f.input :original_text, label: "Оригинал" %>
+    <%= f.hidden_field :card_id, value: @card.id %>
+    <%= f.button :submit, "Проверить" %>
+ <% end %> 

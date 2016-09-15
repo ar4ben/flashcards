@@ -1,0 +1,1141 @@
+=> [
+  [1;37m[  0] [0m#<Card:0x007fca28ca82b8> {
+                 :id[0;37m => [0m[1;34m15[0m,
+      :original_text[0;37m => [0m[0;33m"und"[0m,
+    :translated_text[0;37m => [0m[0;33m"and"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  1] [0m#<Card:0x007fca28ca8010> {
+                 :id[0;37m => [0m[1;34m16[0m,
+      :original_text[0;37m => [0m[0;33m"Sie"[0m,
+    :translated_text[0;37m => [0m[0;33m"you (polite or formal; addressing one person or a group of people)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  2] [0m#<Card:0x007fca28cc3ea0> {
+                 :id[0;37m => [0m[1;34m17[0m,
+      :original_text[0;37m => [0m[0;33m"der"[0m,
+    :translated_text[0;37m => [0m[0;33m"the (definite article; nominitive singular masculine, genitive/dative singular feminine, genitive plural); who, that, which (relative pronoun, singular)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  3] [0m#<Card:0x007fca28cc3c48> {
+                 :id[0;37m => [0m[1;34m18[0m,
+      :original_text[0;37m => [0m[0;33m"was"[0m,
+    :translated_text[0;37m => [0m[0;33m"what (interrogative); which (relative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  4] [0m#<Card:0x007fca28cc39f0> {
+                 :id[0;37m => [0m[1;34m19[0m,
+      :original_text[0;37m => [0m[0;33m"wir"[0m,
+    :translated_text[0;37m => [0m[0;33m"we (nominative plural)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  5] [0m#<Card:0x007fca28cc3770> {
+                 :id[0;37m => [0m[1;34m20[0m,
+      :original_text[0;37m => [0m[0;33m"zu"[0m,
+    :translated_text[0;37m => [0m[0;33m"to, in, at, on, into, for (preposition); too; to, towards; closed, shut (adverb)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  6] [0m#<Card:0x007fca28cc3518> {
+                 :id[0;37m => [0m[1;34m21[0m,
+      :original_text[0;37m => [0m[0;33m"ein"[0m,
+    :translated_text[0;37m => [0m[0;33m"a, an (indefinite article; masculine and neuter nominative; neuter accusative); one (number)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  7] [0m#<Card:0x007fca28cc3298> {
+                 :id[0;37m => [0m[1;34m22[0m,
+      :original_text[0;37m => [0m[0;33m"er"[0m,
+    :translated_text[0;37m => [0m[0;33m"he, it (masculine)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  8] [0m#<Card:0x007fca28cc30e0> {
+                 :id[0;37m => [0m[1;34m23[0m,
+      :original_text[0;37m => [0m[0;33m"in"[0m,
+    :translated_text[0;37m => [0m[0;33m"in, within, at, pertaining to (in + dative); into (in + accusative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[  9] [0m#<Card:0x007fca28cc2e88> {
+                 :id[0;37m => [0m[1;34m24[0m,
+      :original_text[0;37m => [0m[0;33m"sie"[0m,
+    :translated_text[0;37m => [0m[0;33m"she, it (feminine); they, you (plural)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 10] [0m#<Card:0x007fca28cc2b90> {
+                 :id[0;37m => [0m[1;34m25[0m,
+      :original_text[0;37m => [0m[0;33m"mir"[0m,
+    :translated_text[0;37m => [0m[0;33m"me, to me (dative singular of \"ich\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 11] [0m#<Card:0x007fca28cc2988> {
+                 :id[0;37m => [0m[1;34m26[0m,
+      :original_text[0;37m => [0m[0;33m"mit"[0m,
+    :translated_text[0;37m => [0m[0;33m"with"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 12] [0m#<Card:0x007fca28cc2758> {
+                 :id[0;37m => [0m[1;34m27[0m,
+      :original_text[0;37m => [0m[0;33m"ja"[0m,
+    :translated_text[0;37m => [0m[0;33m"yes; really, definitely; of course (adverb); a yes (capitalized as a noun - Ja)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 13] [0m#<Card:0x007fca28cc24d8> {
+                 :id[0;37m => [0m[1;34m28[0m,
+      :original_text[0;37m => [0m[0;33m"wie"[0m,
+    :translated_text[0;37m => [0m[0;33m"how (adverb); like, as (conjunction); how (capitalized as a noun - Wie)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 14] [0m#<Card:0x007fca28cc2280> {
+                 :id[0;37m => [0m[1;34m29[0m,
+      :original_text[0;37m => [0m[0;33m"den"[0m,
+    :translated_text[0;37m => [0m[0;33m"the (definitive article; accusative masculine singular; dative plural of \"der\"); this, that one (demonstrative pronoun, accusative masculine singular of \"der\"); who, that, which (relative pronoun)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 15] [0m#<Card:0x007fca28cc2028> {
+                 :id[0;37m => [0m[1;34m30[0m,
+      :original_text[0;37m => [0m[0;33m"auf"[0m,
+    :translated_text[0;37m => [0m[0;33m"on, onto, at"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 16] [0m#<Card:0x007fca28cc1bf0> {
+                 :id[0;37m => [0m[1;34m31[0m,
+      :original_text[0;37m => [0m[0;33m"mich"[0m,
+    :translated_text[0;37m => [0m[0;33m"me (accusative singular of \"ich\"); myself (reflexive pronoun)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 17] [0m#<Card:0x007fca28cc19e8> {
+                 :id[0;37m => [0m[1;34m32[0m,
+      :original_text[0;37m => [0m[0;33m"dass / daß"[0m,
+    :translated_text[0;37m => [0m[0;33m"that (\"daß\" is an obsolete spelling of \"dass\" used prior to the German spelling reform of 1996)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 18] [0m#<Card:0x007fca28cc1768> {
+                 :id[0;37m => [0m[1;34m33[0m,
+      :original_text[0;37m => [0m[0;33m"so"[0m,
+    :translated_text[0;37m => [0m[0;33m"so, that; as; if"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 19] [0m#<Card:0x007fca28cc14e8> {
+                 :id[0;37m => [0m[1;34m34[0m,
+      :original_text[0;37m => [0m[0;33m"hier"[0m,
+    :translated_text[0;37m => [0m[0;33m"here"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 20] [0m#<Card:0x007fca28cc1268> {
+                 :id[0;37m => [0m[1;34m35[0m,
+      :original_text[0;37m => [0m[0;33m"eine"[0m,
+    :translated_text[0;37m => [0m[0;33m"a, an (feminine nominative and accusative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 21] [0m#<Card:0x007fca28cc0f98> {
+                 :id[0;37m => [0m[1;34m36[0m,
+      :original_text[0;37m => [0m[0;33m"wenn"[0m,
+    :translated_text[0;37m => [0m[0;33m"if, when; if, the ifs (capitalized as a noun - Wenn)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 22] [0m#<Card:0x007fca28cc0d68> {
+                 :id[0;37m => [0m[1;34m37[0m,
+      :original_text[0;37m => [0m[0;33m"hat"[0m,
+    :translated_text[0;37m => [0m[0;33m"to have (third-person singular present of \"haben\"; e.g. \"er/sie/es hat\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 23] [0m#<Card:0x007fca28cc0b60> {
+                 :id[0;37m => [0m[1;34m38[0m,
+      :original_text[0;37m => [0m[0;33m"all"[0m,
+    :translated_text[0;37m => [0m[0;33m"all, all the, every, everything, everybody, everyone"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 24] [0m#<Card:0x007fca28cc0908> {
+                 :id[0;37m => [0m[1;34m39[0m,
+      :original_text[0;37m => [0m[0;33m"sind"[0m,
+    :translated_text[0;37m => [0m[0;33m"(we/they/you all) are (1st- and 3-rd person plural present of \"sein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 25] [0m#<Card:0x007fca28cc06d8> {
+                 :id[0;37m => [0m[1;34m40[0m,
+      :original_text[0;37m => [0m[0;33m"von"[0m,
+    :translated_text[0;37m => [0m[0;33m"from, of (+ Dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 26] [0m#<Card:0x007fca28cc0430> {
+                 :id[0;37m => [0m[1;34m41[0m,
+      :original_text[0;37m => [0m[0;33m"dich"[0m,
+    :translated_text[0;37m => [0m[0;33m"you (accusative of du); yourself (accusative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 27] [0m#<Card:0x007fca28cc0250> {
+                 :id[0;37m => [0m[1;34m42[0m,
+      :original_text[0;37m => [0m[0;33m"war"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she/it) was (1st- and 3-rd person singular preterite of \"sein\") languagedaily.com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 28] [0m#<Card:0x007fca28cc7f50> {
+                 :id[0;37m => [0m[1;34m43[0m,
+      :original_text[0;37m => [0m[0;33m"haben"[0m,
+    :translated_text[0;37m => [0m[0;33m"to have; possess; own; to have (auxiliary verb forms the perfect and past perfect tense)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 29] [0m#<Card:0x007fca28cc7d70> {
+                 :id[0;37m => [0m[1;34m44[0m,
+      :original_text[0;37m => [0m[0;33m"für"[0m,
+    :translated_text[0;37m => [0m[0;33m"for (+ Accusative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 30] [0m#<Card:0x007fca28cc7b68> {
+                 :id[0;37m => [0m[1;34m45[0m,
+      :original_text[0;37m => [0m[0;33m"an"[0m,
+    :translated_text[0;37m => [0m[0;33m"to, on, at, by, about, against"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 31] [0m#<Card:0x007fca28cc7938> {
+                 :id[0;37m => [0m[1;34m46[0m,
+      :original_text[0;37m => [0m[0;33m"habe"[0m,
+    :translated_text[0;37m => [0m[0;33m"to have (1st-person singular present/subjunctive; 3rd-person singular subjunctive I; imperative singular of \"haben\"; e.g. \"ich habe\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 32] [0m#<Card:0x007fca28cc7668> {
+                 :id[0;37m => [0m[1;34m47[0m,
+      :original_text[0;37m => [0m[0;33m"da"[0m,
+    :translated_text[0;37m => [0m[0;33m"there, here, then, so (adverb); since, as, given that (conjunction)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 33] [0m#<Card:0x007fca28cc7460> {
+                 :id[0;37m => [0m[1;34m48[0m,
+      :original_text[0;37m => [0m[0;33m"nein"[0m,
+    :translated_text[0;37m => [0m[0;33m"no; a no (capitalized as a noun - nein)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 34] [0m#<Card:0x007fca28cc7230> {
+                 :id[0;37m => [0m[1;34m49[0m,
+      :original_text[0;37m => [0m[0;33m"bin"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I) am (1st-person singular present of \"sein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 35] [0m#<Card:0x007fca28cc7028> {
+                 :id[0;37m => [0m[1;34m50[0m,
+      :original_text[0;37m => [0m[0;33m"noch"[0m,
+    :translated_text[0;37m => [0m[0;33m"still, yet (adverb); nor (conjuction)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 36] [0m#<Card:0x007fca28cc6e20> {
+                 :id[0;37m => [0m[1;34m51[0m,
+      :original_text[0;37m => [0m[0;33m"dir"[0m,
+    :translated_text[0;37m => [0m[0;33m"you, to you (dative of \"du\"); yourself, to yourself (dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 37] [0m#<Card:0x007fca28cc6bf0> {
+                 :id[0;37m => [0m[1;34m52[0m,
+      :original_text[0;37m => [0m[0;33m"uns"[0m,
+    :translated_text[0;37m => [0m[0;33m"us (accusative and dative of \"wir\"); ourselves (accusative and dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 38] [0m#<Card:0x007fca28cc6a10> {
+                 :id[0;37m => [0m[1;34m53[0m,
+      :original_text[0;37m => [0m[0;33m"sich"[0m,
+    :translated_text[0;37m => [0m[0;33m"oneself, itself, himself, herself, themselves (3-rd person singular and plural; accusative and dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 39] [0m#<Card:0x007fca28cc6858> {
+                 :id[0;37m => [0m[1;34m54[0m,
+      :original_text[0;37m => [0m[0;33m"nur"[0m,
+    :translated_text[0;37m => [0m[0;33m"only, merely, just; languagedaily dot com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 40] [0m#<Card:0x007fca28cc66a0> {
+                 :id[0;37m => [0m[1;34m55[0m,
+      :original_text[0;37m => [0m[0;33m"einen"[0m,
+    :translated_text[0;37m => [0m[0;33m"a, an (masculine accusative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 41] [0m#<Card:0x007fca28cc6498> {
+                 :id[0;37m => [0m[1;34m56[0m,
+      :original_text[0;37m => [0m[0;33m"kann"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I) can, am able to (he/she/it) can (1st- and 3-rd person singular present of \"können\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 42] [0m#<Card:0x007fca28cc6240> {
+                 :id[0;37m => [0m[1;34m57[0m,
+      :original_text[0;37m => [0m[0;33m"dem"[0m,
+    :translated_text[0;37m => [0m[0;33m"the (definite article; dative singular masculine/neuter of \"der\"); to whom, to which (relative pronoun; dative singular masculine/neuter of \"der\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:27 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:27 UTC +00:00[0m
+  },
+  [1;37m[ 43] [0m#<Card:0x007fca28cc5fc0> {
+                 :id[0;37m => [0m[1;34m58[0m,
+      :original_text[0;37m => [0m[0;33m"auch"[0m,
+    :translated_text[0;37m => [0m[0;33m"also, too, as well"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 44] [0m#<Card:0x007fca28cc5d40> {
+                 :id[0;37m => [0m[1;34m59[0m,
+      :original_text[0;37m => [0m[0;33m"schon"[0m,
+    :translated_text[0;37m => [0m[0;33m"already, just, yet, indeed, surely; handle with care, spare (imperative singular, and colloquial 1st-person singular present of \"schonen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 45] [0m#<Card:0x007fca28cc5a70> {
+                 :id[0;37m => [0m[1;34m60[0m,
+      :original_text[0;37m => [0m[0;33m"als"[0m,
+    :translated_text[0;37m => [0m[0;33m"than, when, as, while, as if"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 46] [0m#<Card:0x007fca28cc5728> {
+                 :id[0;37m => [0m[1;34m61[0m,
+      :original_text[0;37m => [0m[0;33m"dann"[0m,
+    :translated_text[0;37m => [0m[0;33m"then, after that"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 47] [0m#<Card:0x007fca28cc5458> {
+                 :id[0;37m => [0m[1;34m62[0m,
+      :original_text[0;37m => [0m[0;33m"ihn"[0m,
+    :translated_text[0;37m => [0m[0;33m"him, it (accusative of \"er\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 48] [0m#<Card:0x007fca28cc50c0> {
+                 :id[0;37m => [0m[1;34m63[0m,
+      :original_text[0;37m => [0m[0;33m"mal"[0m,
+    :translated_text[0;37m => [0m[0;33m"times (adverb); to paint (imperative singular, and colloquial 1st-person singular present of \"malen\"); time (capitalized as a noun - Mal)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 49] [0m#<Card:0x007fca28cc4e90> {
+                 :id[0;37m => [0m[1;34m64[0m,
+      :original_text[0;37m => [0m[0;33m"hast"[0m,
+    :translated_text[0;37m => [0m[0;33m"(you) have (2nd-person singular present of the verb \"haben\"; e.g. \"du hast\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 50] [0m#<Card:0x007fca28cc4cd8> {
+                 :id[0;37m => [0m[1;34m65[0m,
+      :original_text[0;37m => [0m[0;33m"sein"[0m,
+    :translated_text[0;37m => [0m[0;33m"to be, to have, to exist, there is / it is; languagedaily.com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 51] [0m#<Card:0x007fca28cc4b20> {
+                 :id[0;37m => [0m[1;34m129[0m,
+      :original_text[0;37m => [0m[0;33m"des"[0m,
+    :translated_text[0;37m => [0m[0;33m"the (genitive singular masculine/neuter of \"der\" and \"das\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 52] [0m#<Card:0x007fca28cc4828> {
+                 :id[0;37m => [0m[1;34m66[0m,
+      :original_text[0;37m => [0m[0;33m"ihr"[0m,
+    :translated_text[0;37m => [0m[0;33m"you, you all (plural, familiar; personal pronoun); her, to her (dative of sie; personal pronoun), ; her, its, their (possessive pronoun)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 53] [0m#<Card:0x007fca28cc4670> {
+                 :id[0;37m => [0m[1;34m67[0m,
+      :original_text[0;37m => [0m[0;33m"aus"[0m,
+    :translated_text[0;37m => [0m[0;33m"out; over, finished, up (adverb)from, out of; of; for, because of (preposition)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 54] [0m#<Card:0x007fca28cc44b8> {
+                 :id[0;37m => [0m[1;34m68[0m,
+      :original_text[0;37m => [0m[0;33m"um"[0m,
+    :translated_text[0;37m => [0m[0;33m"at (time), around (+ accusative); in order to, so as to (conjunction)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 55] [0m#<Card:0x007fca28cc4300> {
+                 :id[0;37m => [0m[1;34m69[0m,
+      :original_text[0;37m => [0m[0;33m"aber"[0m,
+    :translated_text[0;37m => [0m[0;33m"again (adverb); but, though (conjunction)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 56] [0m#<Card:0x007fca28cc4148> {
+                 :id[0;37m => [0m[1;34m70[0m,
+      :original_text[0;37m => [0m[0;33m"meine"[0m,
+    :translated_text[0;37m => [0m[0;33m"mine (feminine nominative/accusative singular, and nominative/accusative plural form of \"mein\"); to think, to mean (inflections of the verb \"meinen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 57] [0m#<Card:0x007fca28cdffb0> {
+                 :id[0;37m => [0m[1;34m71[0m,
+      :original_text[0;37m => [0m[0;33m"Aber"[0m,
+    :translated_text[0;37m => [0m[0;33m"objection (noun)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 58] [0m#<Card:0x007fca28cdfdf8> {
+                 :id[0;37m => [0m[1;34m72[0m,
+      :original_text[0;37m => [0m[0;33m"wird"[0m,
+    :translated_text[0;37m => [0m[0;33m"(he/she/it) becomes (3rd-person singular present of \"werden\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 59] [0m#<Card:0x007fca28cdfc40> {
+                 :id[0;37m => [0m[1;34m73[0m,
+      :original_text[0;37m => [0m[0;33m"doch"[0m,
+    :translated_text[0;37m => [0m[0;33m"but, though, however; yet (conjunction); after all; really; yes, surely (adverb)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 60] [0m#<Card:0x007fca28cdfa88> {
+                 :id[0;37m => [0m[1;34m74[0m,
+      :original_text[0;37m => [0m[0;33m"mein"[0m,
+    :translated_text[0;37m => [0m[0;33m"my"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 61] [0m#<Card:0x007fca28cdf8d0> {
+                 :id[0;37m => [0m[1;34m75[0m,
+      :original_text[0;37m => [0m[0;33m"bist"[0m,
+    :translated_text[0;37m => [0m[0;33m"(you) are (2nd-person singular present of \"sein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 62] [0m#<Card:0x007fca28cdf6f0> {
+                 :id[0;37m => [0m[1;34m76[0m,
+      :original_text[0;37m => [0m[0;33m"im"[0m,
+    :translated_text[0;37m => [0m[0;33m"in the (contraction of \"in\" + \"dem\"; used with masculine or neuter nouns in the dative case)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 63] [0m#<Card:0x007fca28cdf538> {
+                 :id[0;37m => [0m[1;34m77[0m,
+      :original_text[0;37m => [0m[0;33m"keine"[0m,
+    :translated_text[0;37m => [0m[0;33m"none, nobody, not any (pronoun); not a (negative indefinite article; accusative/nominative feminine and plural forms of \"kein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 64] [0m#<Card:0x007fca28cdf330> {
+                 :id[0;37m => [0m[1;34m78[0m,
+      :original_text[0;37m => [0m[0;33m"gut"[0m,
+    :translated_text[0;37m => [0m[0;33m"good (adjective); well (adverb); property, possessions, goods (capitalized as a noun - Gut)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 65] [0m#<Card:0x007fca28cdf010> {
+                 :id[0;37m => [0m[1;34m79[0m,
+      :original_text[0;37m => [0m[0;33m"oder"[0m,
+    :translated_text[0;37m => [0m[0;33m"or; isnt' it, isn't that so"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 66] [0m#<Card:0x007fca28cdee08> {
+                 :id[0;37m => [0m[1;34m80[0m,
+      :original_text[0;37m => [0m[0;33m"weiß"[0m,
+    :translated_text[0;37m => [0m[0;33m"white (adjective); (I) know, (he/she/it) knows (1st- and 3rd-person singular present of \"wissen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 67] [0m#<Card:0x007fca28cdec28> {
+                 :id[0;37m => [0m[1;34m81[0m,
+      :original_text[0;37m => [0m[0;33m"jetzt"[0m,
+    :translated_text[0;37m => [0m[0;33m"now; yet (adverb); the present, now (capitalized as a noun - Jetzt)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 68] [0m#<Card:0x007fca28cdea70> {
+                 :id[0;37m => [0m[1;34m82[0m,
+      :original_text[0;37m => [0m[0;33m"man"[0m,
+    :translated_text[0;37m => [0m[0;33m"one, they, you"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 69] [0m#<Card:0x007fca28cde750> {
+                 :id[0;37m => [0m[1;34m83[0m,
+      :original_text[0;37m => [0m[0;33m"nach"[0m,
+    :translated_text[0;37m => [0m[0;33m"to; after; according to (preposition) (+ dative); after, behind (adverb)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 70] [0m#<Card:0x007fca28cde4a8> {
+                 :id[0;37m => [0m[1;34m84[0m,
+      :original_text[0;37m => [0m[0;33m"werden"[0m,
+    :translated_text[0;37m => [0m[0;33m"to get, to become; will, to be going to; to be done (forms the passive voice)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 71] [0m#<Card:0x007fca28cde0c0> {
+                 :id[0;37m => [0m[1;34m85[0m,
+      :original_text[0;37m => [0m[0;33m"wo"[0m,
+    :translated_text[0;37m => [0m[0;33m"where, somewhere; when"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 72] [0m#<Card:0x007fca28cddee0> {
+                 :id[0;37m => [0m[1;34m86[0m,
+      :original_text[0;37m => [0m[0;33m"will"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I) want to, (he/she/it) wants to (1st- and 3-rd person singular present of \"wollen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 73] [0m#<Card:0x007fca28cddd28> {
+                 :id[0;37m => [0m[1;34m87[0m,
+      :original_text[0;37m => [0m[0;33m"also"[0m,
+    :translated_text[0;37m => [0m[0;33m"so, therefore, thus (conjunction); so, well (adverb); well (interjection)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 74] [0m#<Card:0x007fca28cddb70> {
+                 :id[0;37m => [0m[1;34m88[0m,
+      :original_text[0;37m => [0m[0;33m"mehr"[0m,
+    :translated_text[0;37m => [0m[0;33m"more; no longer (adverb); more (comparative form of \"viel\" and \"sehr\"); increase, excess (capitalized as a noun - Mehr)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 75] [0m#<Card:0x007fca28cdd9b8> {
+                 :id[0;37m => [0m[1;34m89[0m,
+      :original_text[0;37m => [0m[0;33m"immer"[0m,
+    :translated_text[0;37m => [0m[0;33m"always"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 76] [0m#<Card:0x007fca28cdd7b0> {
+                 :id[0;37m => [0m[1;34m90[0m,
+      :original_text[0;37m => [0m[0;33m"muss"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I) must/have to, (he/she/it) must, has to (1st- and 3rd-person singular present of \"müssen\")a must (capitalized as a noun - das Muss)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 77] [0m#<Card:0x007fca28cdd5a8> {
+                 :id[0;37m => [0m[1;34m91[0m,
+      :original_text[0;37m => [0m[0;33m"warum"[0m,
+    :translated_text[0;37m => [0m[0;33m"why"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 78] [0m#<Card:0x007fca28cdd3f0> {
+                 :id[0;37m => [0m[1;34m92[0m,
+      :original_text[0;37m => [0m[0;33m"bei"[0m,
+    :translated_text[0;37m => [0m[0;33m"at, by, near, with, among (+ dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 79] [0m#<Card:0x007fca28cdd198> {
+                 :id[0;37m => [0m[1;34m93[0m,
+      :original_text[0;37m => [0m[0;33m"etwas"[0m,
+    :translated_text[0;37m => [0m[0;33m"some, something, any (pronoun); somewhat, slightly, a little, a bit (adverb); something (capitalized as a noun - Etwas)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 80] [0m#<Card:0x007fca28cdcf68> {
+                 :id[0;37m => [0m[1;34m94[0m,
+      :original_text[0;37m => [0m[0;33m"nichts"[0m,
+    :translated_text[0;37m => [0m[0;33m"nothing"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 81] [0m#<Card:0x007fca28cdcba8> {
+                 :id[0;37m => [0m[1;34m95[0m,
+      :original_text[0;37m => [0m[0;33m"bitte"[0m,
+    :translated_text[0;37m => [0m[0;33m"please, you're welcome, excuse me, please do, go ahead; request, plea (capitalized as a noun - die Bitte); to ask (inflection of the verb \"bitten\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 82] [0m#<Card:0x007fca28cdc950> {
+                 :id[0;37m => [0m[1;34m96[0m,
+      :original_text[0;37m => [0m[0;33m"wieder"[0m,
+    :translated_text[0;37m => [0m[0;33m"again"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 83] [0m#<Card:0x007fca28cdc680> {
+                 :id[0;37m => [0m[1;34m97[0m,
+      :original_text[0;37m => [0m[0;33m"machen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to make, do, prepare; to produce; to go; to put"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 84] [0m#<Card:0x007fca28cdc478> {
+                 :id[0;37m => [0m[1;34m98[0m,
+      :original_text[0;37m => [0m[0;33m"diese"[0m,
+    :translated_text[0;37m => [0m[0;33m"this, these (nominative/accusative feminine and plural of \"dieser\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 85] [0m#<Card:0x007fca28cdc298> {
+                 :id[0;37m => [0m[1;34m99[0m,
+      :original_text[0;37m => [0m[0;33m"vor"[0m,
+    :translated_text[0;37m => [0m[0;33m"before, in front of (preposition); ago; forwards (adverb); languagedaily dot com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 86] [0m#<Card:0x007fca28cdc040> {
+                 :id[0;37m => [0m[1;34m100[0m,
+      :original_text[0;37m => [0m[0;33m"können"[0m,
+    :translated_text[0;37m => [0m[0;33m"to be able to, can; to be allowed to, may; to know how to; ability, skill (capitalized when noun - Können)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 87] [0m#<Card:0x007fca28cdd8c8> {
+                 :id[0;37m => [0m[1;34m101[0m,
+      :original_text[0;37m => [0m[0;33m"hab"[0m,
+    :translated_text[0;37m => [0m[0;33m"to have (1st-person present, colloquial; imperative singular of \"haben\"; e.g. \"ich hab\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:28 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:28 UTC +00:00[0m
+  },
+  [1;37m[ 88] [0m#<Card:0x007fca28cebe50> {
+                 :id[0;37m => [0m[1;34m102[0m,
+      :original_text[0;37m => [0m[0;33m"zum"[0m,
+    :translated_text[0;37m => [0m[0;33m"to the (contraction of zu + dem)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 89] [0m#<Card:0x007fca28cebb58> {
+                 :id[0;37m => [0m[1;34m103[0m,
+      :original_text[0;37m => [0m[0;33m"gehen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to go, walk; to leave; to work; to be in progress, last; to be going; to approach"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 90] [0m#<Card:0x007fca28ceb810> {
+                 :id[0;37m => [0m[1;34m104[0m,
+      :original_text[0;37m => [0m[0;33m"sehr"[0m,
+    :translated_text[0;37m => [0m[0;33m"languagedaily.com; very"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 91] [0m#<Card:0x007fca28ceb518> {
+                 :id[0;37m => [0m[1;34m105[0m,
+      :original_text[0;37m => [0m[0;33m"geht"[0m,
+    :translated_text[0;37m => [0m[0;33m"(he/she/it) goes, is going; (you all) go, are going (3rd-person singular present; 2nd-person plural present; imperative plural of \"gehen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 92] [0m#<Card:0x007fca28ceb298> {
+                 :id[0;37m => [0m[1;34m106[0m,
+      :original_text[0;37m => [0m[0;33m"sehen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to see, look; to take care of; to view, watch, observe; to notice"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 93] [0m#<Card:0x007fca28ceb0b8> {
+                 :id[0;37m => [0m[1;34m107[0m,
+      :original_text[0;37m => [0m[0;33m"tun"[0m,
+    :translated_text[0;37m => [0m[0;33m"to do, make; to put; doings, conduct (capitalized as a noun - das Tun)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:29 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:29 UTC +00:00[0m
+  },
+  [1;37m[ 94] [0m#<Card:0x007fca28ceae88> {
+                 :id[0;37m => [0m[1;34m108[0m,
+      :original_text[0;37m => [0m[0;33m"Mann"[0m,
+    :translated_text[0;37m => [0m[0;33m"man, male, husband"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 95] [0m#<Card:0x007fca28ceac08> {
+                 :id[0;37m => [0m[1;34m109[0m,
+      :original_text[0;37m => [0m[0;33m"euch"[0m,
+    :translated_text[0;37m => [0m[0;33m"you, yourselves (plural form; accusative and dative of \"ihr\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 96] [0m#<Card:0x007fca28cea9b0> {
+                 :id[0;37m => [0m[1;34m110[0m,
+      :original_text[0;37m => [0m[0;33m"wer"[0m,
+    :translated_text[0;37m => [0m[0;33m"who; the person who; somebody, someone"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 97] [0m#<Card:0x007fca28cea780> {
+                 :id[0;37m => [0m[1;34m111[0m,
+      :original_text[0;37m => [0m[0;33m"wirklich"[0m,
+    :translated_text[0;37m => [0m[0;33m"real, true, natural"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 98] [0m#<Card:0x007fca28cea550> {
+                 :id[0;37m => [0m[1;34m112[0m,
+      :original_text[0;37m => [0m[0;33m"ihm"[0m,
+    :translated_text[0;37m => [0m[0;33m"him, to him (dative of \"er\"); it, to it (dative of \"es\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[ 99] [0m#<Card:0x007fca28cea398> {
+                 :id[0;37m => [0m[1;34m113[0m,
+      :original_text[0;37m => [0m[0;33m"einem"[0m,
+    :translated_text[0;37m => [0m[0;33m"a, an (masculine and neuter dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[100] [0m#<Card:0x007fca28cea1e0> {
+                 :id[0;37m => [0m[1;34m114[0m,
+      :original_text[0;37m => [0m[0;33m"werde"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I) become (1st-person singular present; 1st- and 3rd-person singular subjunctive I; imperative singular of \"werden\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[101] [0m#<Card:0x007fca28cea028> {
+                 :id[0;37m => [0m[1;34m115[0m,
+      :original_text[0;37m => [0m[0;33m"sagen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to say, tell; languagedaily.com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[102] [0m#<Card:0x007fca28ce9e20> {
+                 :id[0;37m => [0m[1;34m116[0m,
+      :original_text[0;37m => [0m[0;33m"deine"[0m,
+    :translated_text[0;37m => [0m[0;33m"your (nominative/accusative feminine and plural of \"dein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[103] [0m#<Card:0x007fca28ce9ba0> {
+                 :id[0;37m => [0m[1;34m117[0m,
+      :original_text[0;37m => [0m[0;33m"denn"[0m,
+    :translated_text[0;37m => [0m[0;33m"for, because, then, than (conjunction); then (adverb)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[104] [0m#<Card:0x007fca28ce9970> {
+                 :id[0;37m => [0m[1;34m118[0m,
+      :original_text[0;37m => [0m[0;33m"danke"[0m,
+    :translated_text[0;37m => [0m[0;33m"thank you!, thanks!; inflection of the verb \"danken\""[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[105] [0m#<Card:0x007fca28ce9650> {
+                 :id[0;37m => [0m[1;34m119[0m,
+      :original_text[0;37m => [0m[0;33m"andere"[0m,
+    :translated_text[0;37m => [0m[0;33m"other, different, next"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[106] [0m#<Card:0x007fca28ce93d0> {
+                 :id[0;37m => [0m[1;34m120[0m,
+      :original_text[0;37m => [0m[0;33m"über"[0m,
+    :translated_text[0;37m => [0m[0;33m"above, over, across, beyond, about, on"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[107] [0m#<Card:0x007fca28ce91a0> {
+                 :id[0;37m => [0m[1;34m121[0m,
+      :original_text[0;37m => [0m[0;33m"komm"[0m,
+    :translated_text[0;37m => [0m[0;33m"come (1st-person singular present; imperative singular of \"kommen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[108] [0m#<Card:0x007fca28ce8fe8> {
+                 :id[0;37m => [0m[1;34m122[0m,
+      :original_text[0;37m => [0m[0;33m"einer"[0m,
+    :translated_text[0;37m => [0m[0;33m"a, an (feminine genitive and dative)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[109] [0m#<Card:0x007fca28ce8e30> {
+                 :id[0;37m => [0m[1;34m123[0m,
+      :original_text[0;37m => [0m[0;33m"einfach"[0m,
+    :translated_text[0;37m => [0m[0;33m"easy, simple, plain; single, one-way; simply, just"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[110] [0m#<Card:0x007fca28ce8b38> {
+                 :id[0;37m => [0m[1;34m124[0m,
+      :original_text[0;37m => [0m[0;33m"soll"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she) should (1st- and 3rd-person singular present of \"sollen\"); debit, target (capitalized as a noun - die Soll)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[111] [0m#<Card:0x007fca28ce8688> {
+                 :id[0;37m => [0m[1;34m125[0m,
+      :original_text[0;37m => [0m[0;33m"müssen"[0m,
+    :translated_text[0;37m => [0m[0;33m"must, have to"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[112] [0m#<Card:0x007fca28ce84a8> {
+                 :id[0;37m => [0m[1;34m126[0m,
+      :original_text[0;37m => [0m[0;33m"nie"[0m,
+    :translated_text[0;37m => [0m[0;33m"never"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[113] [0m#<Card:0x007fca28ce82a0> {
+                 :id[0;37m => [0m[1;34m127[0m,
+      :original_text[0;37m => [0m[0;33m"gibt"[0m,
+    :translated_text[0;37m => [0m[0;33m"(he/she/it) gives, is giving (3rd-person singular present of \"geben\"); es gibt = there is, there are"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[114] [0m#<Card:0x007fca28cea7a8> {
+                 :id[0;37m => [0m[1;34m128[0m,
+      :original_text[0;37m => [0m[0;33m"hey"[0m,
+    :translated_text[0;37m => [0m[0;33m"hi, hey"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[115] [0m#<Card:0x007fca28cfbdf0> {
+                 :id[0;37m => [0m[1;34m130[0m,
+      :original_text[0;37m => [0m[0;33m"tut"[0m,
+    :translated_text[0;37m => [0m[0;33m"(he/she/it) does, is doing; (you all) do, are doing (3rd-person singular present, 2nd-person plural present, imperative plural of \"tun\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[116] [0m#<Card:0x007fca28cfba30> {
+                 :id[0;37m => [0m[1;34m131[0m,
+      :original_text[0;37m => [0m[0;33m"Leben"[0m,
+    :translated_text[0;37m => [0m[0;33m"life; to live (verb, not capitalized)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[117] [0m#<Card:0x007fca28cfb698> {
+                 :id[0;37m => [0m[1;34m132[0m,
+      :original_text[0;37m => [0m[0;33m"willst"[0m,
+    :translated_text[0;37m => [0m[0;33m"(you) want to (2nd-person singular present of \"wollen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[118] [0m#<Card:0x007fca28cfb490> {
+                 :id[0;37m => [0m[1;34m133[0m,
+      :original_text[0;37m => [0m[0;33m"viel"[0m,
+    :translated_text[0;37m => [0m[0;33m"much, a lot"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[119] [0m#<Card:0x007fca28cfb148> {
+                 :id[0;37m => [0m[1;34m134[0m,
+      :original_text[0;37m => [0m[0;33m"los"[0m,
+    :translated_text[0;37m => [0m[0;33m"loose, not attached, rid of"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[120] [0m#<Card:0x007fca28cfae78> {
+                 :id[0;37m => [0m[1;34m135[0m,
+      :original_text[0;37m => [0m[0;33m"Zeit"[0m,
+    :translated_text[0;37m => [0m[0;33m"time, age; tense (grammar)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[121] [0m#<Card:0x007fca28cfabf8> {
+                 :id[0;37m => [0m[1;34m136[0m,
+      :original_text[0;37m => [0m[0;33m"Ihnen"[0m,
+    :translated_text[0;37m => [0m[0;33m"you, to you (dative of Sie)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[122] [0m#<Card:0x007fca28cfa9c8> {
+                 :id[0;37m => [0m[1;34m137[0m,
+      :original_text[0;37m => [0m[0;33m"am"[0m,
+    :translated_text[0;37m => [0m[0;33m"on, at, on the, at the"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[123] [0m#<Card:0x007fca28cfa810> {
+                 :id[0;37m => [0m[1;34m138[0m,
+      :original_text[0;37m => [0m[0;33m"würde"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she/it) would become (1st- and 3rd-person singular subjunctive II of \"werden\"); dignity, honor (capitalized as a noun - die Würde)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[124] [0m#<Card:0x007fca28cfa658> {
+                 :id[0;37m => [0m[1;34m139[0m,
+      :original_text[0;37m => [0m[0;33m"hatte"[0m,
+    :translated_text[0;37m => [0m[0;33m"to have (1st- and 3rd-person singular preterite of the verb \"haben\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[125] [0m#<Card:0x007fca28cfa478> {
+                 :id[0;37m => [0m[1;34m140[0m,
+      :original_text[0;37m => [0m[0;33m"kannst"[0m,
+    :translated_text[0;37m => [0m[0;33m"(you) can (2nd-person singular present of \"können\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[126] [0m#<Card:0x007fca28cfa220> {
+                 :id[0;37m => [0m[1;34m141[0m,
+      :original_text[0;37m => [0m[0;33m"wissen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to know; knowledge (capitalized as a noun - das Wissen)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[127] [0m#<Card:0x007fca28cf9f78> {
+                 :id[0;37m => [0m[1;34m142[0m,
+      :original_text[0;37m => [0m[0;33m"zurück"[0m,
+    :translated_text[0;37m => [0m[0;33m"back, backwards"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[128] [0m#<Card:0x007fca28cf9ca8> {
+                 :id[0;37m => [0m[1;34m143[0m,
+      :original_text[0;37m => [0m[0;33m"heute"[0m,
+    :translated_text[0;37m => [0m[0;33m"today, nowadays"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[129] [0m#<Card:0x007fca28cf9af0> {
+                 :id[0;37m => [0m[1;34m144[0m,
+      :original_text[0;37m => [0m[0;33m"damit"[0m,
+    :translated_text[0;37m => [0m[0;33m"with it, thereby; so that, in order that"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[130] [0m#<Card:0x007fca28cf9938> {
+                 :id[0;37m => [0m[1;34m145[0m,
+      :original_text[0;37m => [0m[0;33m"gesagt"[0m,
+    :translated_text[0;37m => [0m[0;33m"said (past participle of \"sagen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[131] [0m#<Card:0x007fca28cf95c8> {
+                 :id[0;37m => [0m[1;34m146[0m,
+      :original_text[0;37m => [0m[0;33m"Ihr"[0m,
+    :translated_text[0;37m => [0m[0;33m"your (politely or formally addressing one person)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[132] [0m#<Card:0x007fca28cf92a8> {
+                 :id[0;37m => [0m[1;34m147[0m,
+      :original_text[0;37m => [0m[0;33m"macht"[0m,
+    :translated_text[0;37m => [0m[0;33m"does, makes; make, do (3rd-and 2nd-person singular present; imperative plural of \"machen\"); power, might, potency (capitalized as a noun - die Macht)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[133] [0m#<Card:0x007fca28cf90f0> {
+                 :id[0;37m => [0m[1;34m148[0m,
+      :original_text[0;37m => [0m[0;33m"weißt"[0m,
+    :translated_text[0;37m => [0m[0;33m"(you/\"du\") know (2nd-person singular present of \"wissen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[134] [0m#<Card:0x007fca28cf8f38> {
+                 :id[0;37m => [0m[1;34m149[0m,
+      :original_text[0;37m => [0m[0;33m"kein"[0m,
+    :translated_text[0;37m => [0m[0;33m"no, not a, not an; languagedaily dot com"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[135] [0m#<Card:0x007fca28cf8d80> {
+                 :id[0;37m => [0m[1;34m150[0m,
+      :original_text[0;37m => [0m[0;33m"wollen"[0m,
+    :translated_text[0;37m => [0m[0;33m"to want, to wish, to desire (verb); to want to do smth (auxiliary verb); woolen (adjective)"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[136] [0m#<Card:0x007fca28cf8bc8> {
+                 :id[0;37m => [0m[1;34m151[0m,
+      :original_text[0;37m => [0m[0;33m"wurde"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she/it) became (1st- and 3rd-person singular preterite of \"werden\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[137] [0m#<Card:0x007fca28cf8a10> {
+                 :id[0;37m => [0m[1;34m152[0m,
+      :original_text[0;37m => [0m[0;33m"wollte"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she/it) wanted to, would want to (1st- and 3rd-person singular preterite/subjunctive II of \"wollen\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[138] [0m#<Card:0x007fca28cf8858> {
+                 :id[0;37m => [0m[1;34m153[0m,
+      :original_text[0;37m => [0m[0;33m"Frau"[0m,
+    :translated_text[0;37m => [0m[0;33m"woman, wife; Mrs/Ms"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[139] [0m#<Card:0x007fca28cf86a0> {
+                 :id[0;37m => [0m[1;34m154[0m,
+      :original_text[0;37m => [0m[0;33m"wäre"[0m,
+    :translated_text[0;37m => [0m[0;33m"(I/he/she/it) would be (1st- and 3rd-person singular subjunctive II of \"sein\")"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[140] [0m#<Card:0x007fca28cf84e8> {
+                 :id[0;37m => [0m[1;34m155[0m,
+      :original_text[0;37m => [0m[0;33m"Gott"[0m,
+    :translated_text[0;37m => [0m[0;33m"God, god, deity"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[141] [0m#<Card:0x007fca28cf8330> {
+                 :id[0;37m => [0m[1;34m156[0m,
+      :original_text[0;37m => [0m[0;33m"Leute"[0m,
+    :translated_text[0;37m => [0m[0;33m"people, folk"[0m,
+        :review_date[0;37m => [0m[0;32mSun, 11 Sep 2016 22:10:30 UTC +00:00[0m,
+         :created_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m,
+         :updated_at[0;37m => [0m[0;32mThu, 08 Sep 2016 22:10:30 UTC +00:00[0m
+  },
+  [1;37m[142] [0m#<Card:0x007fca28d0f7b0> {
+                 :id[0;37m => [0m[1;34m157[0m,
+      :original_text[0;37m => [0m[0;33m"dieser"[0m,
+    :translated_text[0;37m => [0m[0;33m"this, these (masculine singular); (also, feminine dative/genitive and plural genitive form of
