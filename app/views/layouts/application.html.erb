@@ -10,24 +10,19 @@
   <section id="container">
 
     <header class="clearfix">
-	  <nav class="navbar navbar-default">
-	      <ul class="nav navbar-nav navigation-links">
-	        <li><%= link_to "Все карточки", cards_path %></li>
-	        <li><%= link_to "Добавить карточку", new_card_path %></li>
-	      </ul>
-	  </nav>
+  	  <nav class="navbar navbar-default">
+  	      <ul class="nav navbar-nav navigation-links">
+  	        <li><%= link_to "Все карточки", cards_path %></li>
+  	        <li><%= link_to "Добавить карточку", new_card_path %></li>
+  	      </ul>
+  	  </nav>
 
       <h1>Флэшкарточкер</h1>
-      
     </header>
-
     <section>
     	<%= yield %>
     </section>
 
   </section>
-</body>
-
-
 </body>
 </html>
