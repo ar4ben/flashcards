@@ -5,8 +5,8 @@ class HomeController < ApplicationController
 
   def check
     result = CompareOriginText.call(
-        params: cards_params
-      )
+      params: cards_params
+    )
     if result.success?
       redirect_to :back, notice: "Правильно!"
     else
