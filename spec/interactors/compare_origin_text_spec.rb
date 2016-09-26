@@ -2,7 +2,7 @@ require 'rails_helper'
 describe CompareOriginText do
   before do
     @card = Card.create(original_text: 'x', translated_text: 'y')
-    @params = {card_id: @card.id}
+    @params = { card_id: @card.id }
   end
 
   it ".call should compare user text with original" do

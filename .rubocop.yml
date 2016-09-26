@@ -1,4 +1,4 @@
-inherit_from: .rubocop_todo.yml
+#inherit_from: .rubocop_todo.yml
 Cops:
   Exclude:
     - db/schema.rb
@@ -8,4 +8,8 @@ StringLiterals:
 Metrics/LineLength:
   Enabled: false
 Style/Tab:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Documentation:
   Enabled: false
