@@ -1,23 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe Card, type: :model do 
-  subject { described_class.new(original_text: 'run', translated_text: 'бежать', review_date: DateTime.now + 3.days) }
+describe Card, type: :model do
+  subject { described_class.new(original_text: 'run', translated_text: 'бежать') }
 
   context "when given attributtes" do
     it "is valid with valid attrs" do
-      expect(subject).to be_valid  
-    end
-
-    it "is not valid without original text" do
-      subject.original_text = nil
-      subject.save
-      expect(subject.errors[:original_text]).to_not be_empty
-    end
-
-    it "is not valid without translated text" do
-      subject.translated_text = nil
-      subject.save
-      expect(subject.errors[:translated_text]).to_not be_empty  
+      expect(subject).to be_valid
     end
   end
 
@@ -26,7 +14,7 @@ RSpec.describe Card, type: :model do
       subject.translated_text = "example"
       subject.original_text = "example"
       subject.save
-      expect(subject.errors[:translated_text].first).to eq("перевод не может быть равен начальному тексту")
+      expect(subject.errors[:translated_text]).to_not be_empty
     end
   end
 
@@ -34,7 +22,7 @@ RSpec.describe Card, type: :model do
     it "increase review date on 3 days more than now" do
       c = described_class.create(original_text: 'run', translated_text: 'бежать')
       review_day = c.review_date.strftime("%d")
-      expected_day = (DateTime.now + 3.days).strftime("%d")
+      expected_day = (c.created_at + 3.days).strftime("%d")
       expect(review_day).to eq(expected_day)
     end
   end

@@ -1,8 +1,6 @@
 fail_on_violations: true
 scss:
   enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
 
 ruby:
   config_file: .rubocop.yml
