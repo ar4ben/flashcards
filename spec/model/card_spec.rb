@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 describe Card, type: :model do
-  subject { described_class.new(original_text: 'run', translated_text: 'бежать') }
+  before(:all) { @user = User.create(email: "test", password: "test") }
+  subject { described_class.new(original_text: 'run', translated_text: 'бежать', user: @user) }
 
   context "when given attributtes" do
     it "is valid with valid attrs" do
@@ -20,7 +21,7 @@ describe Card, type: :model do
 
   context "#set_review_date" do
     it "increase review date on 3 days more than now" do
-      c = described_class.create(original_text: 'run', translated_text: 'бежать')
+      c = described_class.create(original_text: 'run', translated_text: 'бежать', user: @user)
       review_day = c.review_date.strftime("%d")
       expected_day = (c.created_at + 3.days).strftime("%d")
       expect(review_day).to eq(expected_day)

@@ -2,7 +2,8 @@ require 'rails_helper'
 
 describe 'Translation check' do
   before(:each) do
-    @card = create(:card)
+    @user = create(:user)
+    @card = create(:card, user: @user)
     @card.update_attribute(:review_date, Time.now)
     visit root_path
   end

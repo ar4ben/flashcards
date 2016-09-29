@@ -1,7 +1,8 @@
 require 'rails_helper'
 describe CompareOriginText do
   before do
-    @card = Card.create(original_text: 'x', translated_text: 'y')
+    @user = User.create(email: "test", password: "test")
+    @card = Card.create(original_text: 'x', translated_text: 'y', user: @user)
     @params = { card_id: @card.id }
   end
 
