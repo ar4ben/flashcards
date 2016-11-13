@@ -1,9 +1,6 @@
  <p style="font-size: 22px;">
         Первый в мире удобный менеджер флеш-карточек. Именно так.
  </p>
- <% flash.each do |name, msg| %>
-  <%= content_tag :p, msg, class: "alert-info" %>
- <% end -%>
  <% if @card %>
    <p><strong>Случайная карточка:</strong></p>
    <p><strong><%= @card.translated_text %></strong></p>

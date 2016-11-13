@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 describe Card, type: :model do
-  before(:all) { @user = User.create(email: "test", password: "test") }
+  # before(:all) { @user = User.create(email: "test", password: "test") }
+  before(:all) { @user = create(:user) }
   subject { described_class.new(original_text: 'run', translated_text: 'бежать', user: @user) }
 
   context "when given attributtes" do

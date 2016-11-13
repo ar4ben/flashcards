@@ -5,6 +5,7 @@ describe 'Translation check' do
     @user = create(:user)
     @card = create(:card, user: @user)
     @card.update_attribute(:review_date, Time.now)
+    login_user(@user, "password")
     visit root_path
   end
 
