@@ -8,9 +8,5 @@ module TestHelpers
 
       click_button 'Войти'
     end
-
-    def login_user_post(user, password)
-      page.driver.post(user_sessions_url, user_sessions: { email: user.email, password: password })
-    end
   end
 end

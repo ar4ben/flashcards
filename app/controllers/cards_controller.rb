@@ -1,5 +1,5 @@
 class CardsController < ApplicationController
-  before_action :check_user, only: [:edit, :show, :update, :destroy]
+  before_action :set_card, only: [:edit, :show, :update, :destroy]
 
   def index
     @cards = current_user.cards.all
@@ -43,8 +43,8 @@ class CardsController < ApplicationController
     params.require(:card).permit(:original_text, :translated_text, :review_date)
   end
 
-  def check_user
-    @card = Card.find(params[:id])
-    redirect_to root_path if @card.user.id != current_user.id
+  def set_card
+    @card = current_user.cards.find(params[:id]) rescue nil
+    redirect_to root_path unless @card
   end
 end

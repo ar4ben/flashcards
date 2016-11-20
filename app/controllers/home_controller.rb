@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @card = Card.random(current_user.id).first
+    @card = current_user.cards.random.first
   end
 
   def check

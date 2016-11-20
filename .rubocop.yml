@@ -1,4 +1,4 @@
-#inherit_from: .rubocop_todo.yml
+inherit_from: .rubocop_todo.yml
 Cops:
   Exclude:
     - db/schema.rb
@@ -21,4 +21,6 @@ Style/EmptyLinesAroundMethodDefinition:
   Enabled: false
 Style/EmptyLinesAroundBlockBody:
   Enabled: false
+Style/FinalNewline:
+  Enabled: true 
   

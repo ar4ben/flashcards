@@ -5,9 +5,9 @@ class Card < ActiveRecord::Base
   validates :translated_text, presence: true
   validates :review_date, presence: true
   validate :translated_should_be_not_equal_to_original
-  scope :random, ->(user_id) { where('review_date <= ? AND user_id = ?', Time.now, user_id).order("RANDOM()").limit(1) }
-
   before_validation :set_review_date
+
+  scope :random, -> { where('review_date <= ?', Time.now).order("RANDOM()").limit(1) }
 
   protected
 
