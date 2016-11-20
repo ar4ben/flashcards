@@ -1,18 +1,19 @@
 class CardsController < ApplicationController
+  before_action :set_card, only: [:edit, :show, :update, :destroy]
+
   def index
-    @cards = Card.all
+    @cards = current_user.cards.all
   end
 
   def new
-    @card = Card.new
+    @card = current_user.cards.new
   end
 
   def edit
-    @card = Card.find(params[:id])
   end
 
   def create
-    @card = Card.new(cards_params)
+    @card = current_user.cards.new(cards_params)
     if @card.save
       redirect_to @card
     else
@@ -21,11 +22,9 @@ class CardsController < ApplicationController
   end
 
   def show
-    @card = Card.find(params[:id])
   end
 
   def update
-    @card = Card.find(params[:id])
     if @card.update(cards_params)
       redirect_to @card
     else
@@ -34,9 +33,7 @@ class CardsController < ApplicationController
   end
 
   def destroy
-    @card = Card.find(params[:id])
     @card.destroy
-
     redirect_to cards_path
   end
 
@@ -44,5 +41,10 @@ class CardsController < ApplicationController
 
   def cards_params
     params.require(:card).permit(:original_text, :translated_text, :review_date)
+  end
+
+  def set_card
+    @card = current_user.cards.find_by(id: params[:id])
+    redirect_to root_path unless @card
   end
 end

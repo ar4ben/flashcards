@@ -1,4 +1,4 @@
-#inherit_from: .rubocop_todo.yml
+inherit_from: .rubocop_todo.yml
 Cops:
   Exclude:
     - db/schema.rb
@@ -13,3 +13,14 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Documentation:
   Enabled: false
+Style/EmptyLines:
+  Enabled: false
+Style/EmptyLinesAroundBody:
+  Enabled: false
+Style/EmptyLinesAroundMethodDefinition:
+  Enabled: false
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+Style/FinalNewline:
+  Enabled: true 
+  

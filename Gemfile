@@ -25,6 +25,8 @@ gem 'rubocop', require: false
 gem 'pg'
 gem 'simple_form'
 gem 'interactor'
+gem 'sorcery'
+gem 'figaro'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -45,4 +47,5 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'database_cleaner'
 end
