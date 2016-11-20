@@ -44,7 +44,7 @@ class CardsController < ApplicationController
   end
 
   def set_card
-    @card = current_user.cards.find(params[:id]) rescue nil
+    @card = current_user.cards.find_by(id: params[:id])
     redirect_to root_path unless @card
   end
 end
