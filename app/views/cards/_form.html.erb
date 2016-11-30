@@ -1,5 +1,7 @@
 <%= simple_form_for @card do |f| %>
 	<%= f.input :original_text, label: 'Оригинальный текст' %>
 	<%= f.input :translated_text, label: 'Перевод' %>
+  <%= f.input :img, as: :file, label: 'Загрузить изображение' %>
+  <%= f.input :img_remote_url, label: "Добавить ссылку на изображение" %>
 	<%= f.button :submit %>
 <% end %>
