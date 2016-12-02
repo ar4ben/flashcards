@@ -4,6 +4,7 @@
  <% if @card %>
    <p><strong>Случайная карточка:</strong></p>
    <p><strong><%= @card.translated_text %></strong></p>
+   <p><%= image_tag @card.img.url(:medium) %></p>
    <%= simple_form_for :random_card, url: '/home', method: :post do |f|%>  
       <%= f.input :original_text, label: "Оригинал" %>
       <%= f.hidden_field :card_id, value: @card.id %>
