@@ -12,10 +12,3 @@ services:
 - postgresql
 addons:
   postgresql: '9.4'
-deploy:
-  provider: s3
-  access_key_id: AKIAIBNYD4WF7F2L2W2Q
-  secret_access_key:
-    secure: F7FgHUHe6yNbl3AaT5cGa2jZwXu7T4oD+w0llBmlD7f0L8ra03JB+Akn1MgFUfgMggi6pJgoR5+d3Q/Vt44xniGyrXcvceIL3gdfCYcGSBkJZVraS/j0Z7pP0mqggOlwjH7qYOvP0mel43t9CRQymepKc+goUxYUkjC0OJc2kRRnS/11iuO4HRS/Ko/Bsvy/mYJILu4Z/EUDgu3Qc1Bt3kqFW+8BeliZKlBG+hc2SJtRyWGatqAZxPArq3orPKBfrcKYBMbyFPIbDm6XvN6upU+M2iLzSLs90UXOdB40NJf+uxk1re5kDJIj2ylbzgOT0JFGEjRSB5mdSUoC0+8cR2lrwmNhpCs5gDd8ceTwX1hNC4wOVqcM/248K5j1EBGwXgSEyfPChmUYogR7dj5cStdwhniCmOMtljWChH+TWadZnoWryX9ruMQV63aZLHndLQNt5anuCN5jA36bFRLf020aja1D3SaGKKrgMH9odz2QslPMgmJviTbMyO+aufjObopz18oJ4DL/OCDsZ0b+FKjOON9YFsqstQ/cuiu7CUap/UP6aZREVUFOWk6LKHFGaRqZOZyI4dE7avlMCq6kZk7dtL8NIfUUkXkx6QF7xZ3WH9P5byfcGmMJYFx8PeLgMgSxd4jspCsIvhdJC8r+SaYTPxhJ901nlQkVv+Hg7oM=
-  bucket: mkdevflash
-  skip_cleanup: true
