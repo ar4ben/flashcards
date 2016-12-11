@@ -1,6 +1,5 @@
 FactoryGirl.define do
   factory :deck do
-    name "MyString"
-    references ""
+    sequence(:name) { |n| "name#{n}" }
   end
 end

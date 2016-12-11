@@ -13,7 +13,8 @@
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
   	        <li><%= link_to "Все карточки", cards_path %></li>
-  	        <li><%= link_to "Добавить карточку", new_card_path %></li>
+            <li><%= link_to "Колоды", decks_path %></li>
+  	        <li><%= link_to "Добавить карточку", new_card_path %>
             <% if current_user %>
               <li><%= link_to "Редактировать профиль #{current_user.email}", edit_user_path(current_user.id) %></li>
               <li><%= link_to "Выйти", :logout, method: :post %></li>
@@ -26,6 +27,7 @@
   	  </nav>
 
       <h1>Флэшкарточкер</h1>
+      <%= link_to 'На главную', root_path %>
     </header>
     <section>
       <% flash.each do |name, msg| %>

@@ -1,0 +1,14 @@
+<h2>Колоды</h2>
+<p><%= link_to "Создать новую колоду", new_deck_path, class: "btn btn-primary" %></p>
+<% @decks.each do |deck| %>
+	<p>
+		<span><%= deck.name %></span>
+		<div>
+      <%= link_to "посмотреть колоду | ", deck_path(deck) %>
+			<%= link_to "редактировать колоду | ", edit_deck_path(deck) %>
+			<%= link_to "удалить колоду | " , deck_path(deck), method: :delete, 
+															  data: { confirm: 'Are you sure?' } %>
+      <%= link_to "сделать текущей", set_deck_path(current_user, deck.id), method: :put %>
+		</div>
+	</p>
+<%end%>

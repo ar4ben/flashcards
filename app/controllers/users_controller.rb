@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   skip_before_action :require_login, only: [:index, :new, :create]
-  before_action :set_user, only: [:edit, :update]
+  before_action :set_user, only: [:edit, :update, :set_current_deck]
 
   def new
     @user = User.new
@@ -24,6 +24,14 @@ class UsersController < ApplicationController
       redirect_to root_path
     else
       render 'edit'
+    end
+  end
+
+  def set_current_deck
+    if @user.update_attribute(:deck_id, params[:deck_id])
+      redirect_to deck_path(params[:deck_id])
+    else
+      redirect_to root_path, notice: 'Что-то пошло не так'
     end
   end
 

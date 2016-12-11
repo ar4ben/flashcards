@@ -3,7 +3,8 @@ require 'rails_helper'
 describe 'Translation check' do
   before(:each) do
     @user = create(:user)
-    @card = create(:card, user: @user)
+    @deck = create(:deck, user: @user)
+    @card = create(:card, user: @user, deck: @deck)
     @card.update_attribute(:review_date, Time.now)
     login_user(@user, "password")
     visit root_path
@@ -11,7 +12,7 @@ describe 'Translation check' do
 
   context "with right original text" do
     it "should be success" do
-      fill_in("random_card_original_text", with: "run")
+      fill_in("random_card_original_text", with: @card.original_text)
       click_button "Проверить"
       expect(page).to have_content("Правильно!")
     end
