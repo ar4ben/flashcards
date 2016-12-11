@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 20161210055642) do
     t.datetime "updated_at", null: false
   end
 
+  add_index "decks", ["name", "user_id"], name: "index_decks_on_name_and_user_id", unique: true, using: :btree
   add_index "decks", ["user_id"], name: "index_decks_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|

@@ -6,7 +6,7 @@ describe 'On home page' do
     @current_deck, @deck = create_list(:deck, 2, user: @user)
     @user.update_attribute(:deck_id, @current_deck.id)
     @card_from_curr_deck, @card = create_list(:card, 2, user: @user, deck: @current_deck)
-    @card.update_attribute(:deck_id, @deck)
+    @card.update_attribute(:deck, @deck)
     [@card_from_curr_deck, @card].each { |card| card.update_attribute(:review_date, DateTime.now) }
     login_user(@user, "password")
   end
