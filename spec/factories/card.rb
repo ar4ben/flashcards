@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :card do
-    original_text "run"
-    translated_text "бежать"
+    sequence(:original_text) { |n| "run#{n}" }
+    sequence(:translated_text) { |n| "бежать#{n}" }
   end
 end

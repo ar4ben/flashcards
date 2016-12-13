@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 describe Card, type: :model do
-  # before(:all) { @user = User.create(email: "test", password: "test") }
   before(:all) { @user = create(:user) }
-  subject { described_class.new(original_text: 'run', translated_text: 'бежать', user: @user) }
+  before(:all) { @deck = create(:deck, user: @user) }
+  subject { described_class.new(original_text: 'run', translated_text: 'бежать', user: @user, deck: @deck) }
 
   context "when given attributtes" do
     it "is valid with valid attrs" do
@@ -22,7 +22,7 @@ describe Card, type: :model do
 
   context "#set_review_date" do
     it "increase review date on 3 days more than now" do
-      c = described_class.create(original_text: 'run', translated_text: 'бежать', user: @user)
+      c = described_class.create(original_text: 'run', translated_text: 'бежать', user: @user, deck: @deck)
       review_day = c.review_date.strftime("%d")
       expected_day = (c.created_at + 3.days).strftime("%d")
       expect(review_day).to eq(expected_day)

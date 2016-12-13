@@ -1,10 +1,12 @@
 class Card < ActiveRecord::Base
   attr_reader :img_remote_url
   belongs_to :user
+  belongs_to :deck
   validates :user, presence: true
+  validates :deck, presence: true
+  validates :review_date, presence: true
   validates :original_text, presence: true
   validates :translated_text, presence: true
-  validates :review_date, presence: true
   validate :translated_should_be_not_equal_to_original
   before_validation :set_review_date
 

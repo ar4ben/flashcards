@@ -5,7 +5,8 @@ RSpec.describe CardsController, type: :controller do
   before(:each) do
     users = create_list(:user, 2)
     @owner, @other = users
-    @card = create(:card, user: @owner)
+    @deck = create(:deck, user: @owner)
+    @card = create(:card, user: @owner, deck: @deck)
   end
 
   context 'Cards availability' do
