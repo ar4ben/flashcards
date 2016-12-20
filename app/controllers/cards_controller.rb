@@ -26,6 +26,10 @@ class CardsController < ApplicationController
 
   def update
     if @card.update(cards_params)
+      if card_review
+        review_date = card_review.values.map(&:to_i)
+        @card.update_attribute(:review_date, Date.new(*review_date))
+      end
       redirect_to @card
     else
       render 'edit'
@@ -40,7 +44,12 @@ class CardsController < ApplicationController
   private
 
   def cards_params
-    params.require(:card).permit(:original_text, :translated_text, :review_date, :img_remote_url, :deck_id)
+    params.require(:card).permit(:original_text, :translated_text, :img_remote_url, :deck_id)
+  end
+
+  def card_review
+    date_arr = 3.times.map { |i| :"review_date(#{i + 1}i)" }
+    params.require(:review).permit(*date_arr)
   end
 
   def set_card

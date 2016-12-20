@@ -14,7 +14,7 @@ describe 'Card creation' do
       fill_in("card_translated_text", with: "бежать")
       select @deck.name, from: "card_deck_id"
       attach_file("card_img", Rails.root + 'app/assets/images/missing.png')
-      click_button "Создать карту"
+      click_button "Отправить"
       expect(page).to have_xpath("//img[contains(@src,'/assets/missing')]")
     end
 
@@ -23,7 +23,7 @@ describe 'Card creation' do
       fill_in("card_translated_text", with: "бежать")
       select @deck.name, from: "card_deck_id"
       fill_in("card_img_remote_url", with: 'https://www.google.by/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png')
-      click_button "Создать карту"
+      click_button "Отправить"
       expect(page).to have_xpath("//img[contains(@src,'googlelogo')]")
     end
   end
