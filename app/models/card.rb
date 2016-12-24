@@ -8,7 +8,7 @@ class Card < ActiveRecord::Base
   validates :original_text, presence: true
   validates :translated_text, presence: true
   validate :translated_should_be_not_equal_to_original
-  before_validation :set_review_date
+  before_validation :set_review_date, on: :create
 
   has_attached_file :img, styles: { medium: "360x360>", thumb: "100x100>" }, default_url: "missing.png"
   validates_attachment_content_type :img, content_type: %r{\Aimage\/.*\z}
