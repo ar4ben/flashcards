@@ -40,15 +40,7 @@ class CardsController < ApplicationController
   private
 
   def cards_params
-    p = params.require(:card).permit(:original_text, :translated_text, :img_remote_url, :deck_id)
-    date_arr = Array.new(3) { |i| :"review_date(#{i + 1}i)" }
-    raw_review = params["review"] ? params.require(:review).permit(*date_arr) : nil
-    if raw_review
-      review = raw_review.values.map(&:to_i)
-      p.merge(review_date: Date.new(*review))
-    else
-      p
-    end
+    p = params.require(:card).permit(:original_text, :translated_text, :img_remote_url, :deck_id, :review_date)
   end
 
   def set_card
