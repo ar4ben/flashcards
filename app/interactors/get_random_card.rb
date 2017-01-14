@@ -1,4 +1,4 @@
-class GenerateRandomCard
+class GetRandomCard
   include Interactor
 
   def call
