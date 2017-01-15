@@ -10,11 +10,7 @@ class HomeController < ApplicationController
     result = CompareOriginText.call(
       params: cards_params
     )
-    if result.right
-      redirect_to :back, notice: "Правильно!"
-    else
-      redirect_to :back, alert: "Неправильно!"
-    end
+    redirect_to :back, notice: result.notice
   end
 
   private

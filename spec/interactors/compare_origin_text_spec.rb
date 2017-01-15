@@ -24,10 +24,10 @@ describe CompareOriginText do
   it ".call should compare user text with original" do
     @params[:original_text] = @card.original_text
     interactor = CompareOriginText.call(params: @params)
-    expect(interactor.right).to eq true
+    expect(interactor.notice).to eq "Правильно!"
     @params[:original_text] = 'go'
     interactor = CompareOriginText.call(params: @params)
-    expect(interactor.right).to eq false
+    expect(interactor.notice).to eq "Неправильно!"
   end
 
   it ".call should set correct review date" do
