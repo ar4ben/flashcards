@@ -19,13 +19,4 @@ describe Card, type: :model do
       expect(subject.errors[:translated_text]).to_not be_empty
     end
   end
-
-  context "#set_review_date" do
-    it "increase review date on 3 days more than now" do
-      c = described_class.create(original_text: 'run', translated_text: 'бежать', user: @user, deck: @deck)
-      review_day = c.review_date.strftime("%d")
-      expected_day = (c.created_at + 3.days).strftime("%d")
-      expect(review_day).to eq(expected_day)
-    end
-  end
 end

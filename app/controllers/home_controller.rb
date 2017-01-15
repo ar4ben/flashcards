@@ -1,6 +1,8 @@
 class HomeController < ApplicationController
   def index
-    result = GenerateRandomCard.call(params: { user_id: current_user.id })
+    result = GetRandomCard.call(
+      params: { user_id: current_user.id }
+    )
     @card = result.card
   end
 
@@ -8,11 +10,7 @@ class HomeController < ApplicationController
     result = CompareOriginText.call(
       params: cards_params
     )
-    if result.success?
-      redirect_to :back, notice: "Правильно!"
-    else
-      redirect_to :back, alert: "Неправильно!"
-    end
+    redirect_to :back, notice: result.notice
   end
 
   private
