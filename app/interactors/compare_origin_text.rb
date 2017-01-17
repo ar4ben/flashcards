@@ -54,7 +54,7 @@ class CompareOriginText
     result = CalcLevenshteinDistance.call(
         original: @card.original_text,
         answer: @user_answer
-      )
-    return result.cost
+    )
+    result.cost
   end
 end

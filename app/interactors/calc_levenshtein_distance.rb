@@ -3,7 +3,7 @@ class CalcLevenshteinDistance
 
   def call
     s = context.original
-    m = context.answer
+    t = context.answer
     m = s.length
     n = t.length
     return m if n == 0
