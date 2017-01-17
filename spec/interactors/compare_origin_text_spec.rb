@@ -25,6 +25,9 @@ describe CompareOriginText do
     @params[:original_text] = @card.original_text
     interactor = CompareOriginText.call(params: @params)
     expect(interactor.notice).to eq "Правильно!"
+        @params[:original_text] = "#{@card.original_text}!"
+    interactor = CompareOriginText.call(params: @params)
+    expect(interactor.notice).to include "Это правильный перевод"
     @params[:original_text] = 'go'
     interactor = CompareOriginText.call(params: @params)
     expect(interactor.notice).to eq "Неправильно!"
