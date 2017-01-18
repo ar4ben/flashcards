@@ -16,7 +16,7 @@
 !/log/.keep
 /tmp
 
-/.rubocop*
+#/.rubocop*
 /.hound.yml
 /config/database.yml
 /config/application.yml
