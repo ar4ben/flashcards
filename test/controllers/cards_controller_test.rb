@@ -5,5 +5,4 @@ class CardsControllerTest < ActionController::TestCase
     get :index
     assert_response :success
   end
-
 end
