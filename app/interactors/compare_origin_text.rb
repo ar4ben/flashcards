@@ -60,10 +60,7 @@ class CompareOriginText
 
   def allowable_error?
     cost = Levenshtein.distance(@card.original_text, @user_answer)
-    if ALLOWABLE_COSTS[cost] && ALLOWABLE_COSTS[cost].include?(@user_answer.length)
-      return true
-    else
-      return false
-    end
+    allow = ALLOWABLE_COSTS[cost] && ALLOWABLE_COSTS[cost].include?(@user_answer.length)
+    allow ? true : false
   end
 end
