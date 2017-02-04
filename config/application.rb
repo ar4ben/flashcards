@@ -39,7 +39,7 @@ module Flashcards
       user_name:            ENV["GMAIL_USR"],
       password:             ENV["GMAIL_PASS"],
       authentication:       'plain',
-      enable_starttls_auto: true  
+      enable_starttls_auto: true
     }
   end
 end

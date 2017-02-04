@@ -19,5 +19,5 @@
 
 # Learn more: http://github.com/javan/whenever
 every 1.day do
-  runner "User.new_cards_notification"
+  runner "SendNotification.call"
 end

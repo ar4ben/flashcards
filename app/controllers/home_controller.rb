@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    User.new_cards_notification
     result = GetRandomCard.call(
       params: { user_id: current_user.id }
     )
