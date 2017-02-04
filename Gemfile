@@ -30,6 +30,7 @@ gem 'figaro'
 gem 'paperclip'
 gem 'aws-sdk', '< 2.0'
 gem 'levenshtein', '~> 0.2.2'
+gem 'whenever', require: false
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -52,4 +53,5 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem "letter_opener"
 end
