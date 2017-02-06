@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Флэшкарточкер</title>
+  <title><%= t :title %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <section id="container">
-
+    <%= link_to("ru", root_url(locale: :ru), class: "btn btn-default") %>
+    <%= link_to("en", root_url(locale: :en), class: "btn btn-default") %>
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
@@ -20,7 +21,7 @@
               <li><%= link_to "Выйти", :logout, method: :post %></li>
             <% else %>
               <li><%= link_to "Зарегистрироваться", new_user_path %></li>
-              <li><%= link_to 'Зарегистрироваться через Github', auth_at_provider_path(:provider => :github) %></li>
+              <li><%= link_to 'Зарегистрироваться через Github', auth_at_provider_path(:provider => :github, locale: nil) %></li>
               <li><%= link_to "Войти", :login %></li>
              <% end %>
   	      </ul>

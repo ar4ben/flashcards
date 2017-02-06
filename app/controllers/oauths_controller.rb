@@ -1,5 +1,6 @@
 class OauthsController < ApplicationController
   skip_before_filter :require_login
+  skip_before_filter :set_locale
 
   def oauth
     login_at(params[:provider])
