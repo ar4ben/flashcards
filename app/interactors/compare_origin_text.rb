@@ -19,12 +19,10 @@ class CompareOriginText
       correct_answer
       context.notice = "Судя по всему, под #{@user_answer} подразумевалось #{@card.original_text}.
                         Это правильный перевод для #{@card.translated_text}!"
-      context.notice = I18n.t('notice.guess', 
-                          { answer: @user_answer, 
-                            original: @card.original_text, 
-                            translated: @card.translated_text 
-                          }
-                        )
+      context.notice = I18n.t('notice.guess',
+                              answer: @user_answer,
+                              original: @card.original_text,
+                              translated: @card.translated_text)
 
     else
       incorrect_answer

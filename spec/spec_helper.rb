@@ -18,6 +18,9 @@ Dir[File.dirname(__FILE__) + "/support/**/*.rb"].each { |f| require f }
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  config.before(:each) do
+    page.driver.header 'Accept-Language', 'ru'
+  end
   config.include TestHelpers::Features
   config.include TestHelpers::Features, type: :controller
   # rspec-expectations config goes here. You can use an alternate

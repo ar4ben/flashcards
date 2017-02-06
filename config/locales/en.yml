@@ -1,5 +1,6 @@
-ru:
+en:
   title: "Flashcarder"
+  main_h1: "Flashcarder"
   notice:
     wrong: "Somwthing went wrong"
     exit: "Exit"
