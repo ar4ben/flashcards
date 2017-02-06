@@ -13,7 +13,9 @@ class ApplicationController < ActionController::Base
 
   def set_locale
     locale = params[:locale]
-    I18n.locale = if locale && I18n.available_locales.include?(locale.to_sym)
+    I18n.locale = if current_user 
+                    current_user.locale
+                  elsif locale && I18n.available_locales.include?(locale.to_sym)
                     locale.to_sym
                   else
                     http_accept_language.compatible_language_from(I18n.available_locales)
@@ -21,6 +23,6 @@ class ApplicationController < ActionController::Base
   end
 
   def not_authenticated
-    redirect_to login_path, alert: "Пожалуйста, залогинтесь"
+    redirect_to login_path, alert: t('alert.do_login')
   end
 end

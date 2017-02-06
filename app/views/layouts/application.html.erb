@@ -8,8 +8,10 @@
 </head>
 <body>
   <section id="container">
-    <%= link_to("ru", root_url(locale: :ru), class: "btn btn-default") %>
-    <%= link_to("en", root_url(locale: :en), class: "btn btn-default") %>
+    <% unless current_user %>
+      <%= link_to("ru", root_url(locale: :ru), class: "btn btn-default") %>
+      <%= link_to("en", root_url(locale: :en), class: "btn btn-default") %>
+    <% end %>
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
