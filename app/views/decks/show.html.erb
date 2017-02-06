@@ -1,18 +1,18 @@
 
 <h2><%= @deck.name %></h2>
-<h3>Карты колоды:</h3>
+<h3><%= t('show.cards') %>:</h3>
 <% @deck.cards.each do |card| %>
   <p>
     <span><%= card.original_text %> | </span>
     <span><%= card.translated_text %> | </span>
-    <span>Следующий просмотр <%= card.review_date.strftime("%d/%m/%Y") %></span>
+    <span><%= t('show.next_rev') %> <%= card.review_date.strftime("%d/%m/%Y") %></span>
     <div>
-      <%= link_to "посмотреть карточку | ", card_path(card) %>
-      <%= link_to "редактировать карточку | ", edit_card_path(card) %>
-      <%= link_to "удалить карточку" , card_path(card), method: :delete, 
+      <%= link_to "посмотреть карточку#{t('link.card')} | ", card_path(card) %>
+      <%= link_to "редактировать карточку#{t('link.ed_card')} | ", edit_card_path(card) %>
+      <%= link_to "удалить карточку#{t('link.del_card')}" , card_path(card), method: :delete, 
                                 data: { confirm: 'Are you sure?' } %>
     </div>
   </p>
 <%end%>
 
-<%= link_to 'На главную', root_path %>
+<%= link_to t('link.main'), root_path %>

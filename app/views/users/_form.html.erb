@@ -1,9 +1,9 @@
 <%= simple_form_for @user do |f| %>
-  <%= f.input :email, label: 'Email' %>
+  <%= f.input :email, label: '@email' %>
   <%= f.select(:locale, I18n.available_locales.map { |l| [l, l] }, 
-                                                prompt: "Язык интерфейса") unless @user.new_record? %>
-  <%= f.input :password, label: 'Пароль' %>
-  <%= f.input :password_confirmation, label: 'Подтвердите пароль' %>
-  <%= f.submit 'Отправить' %>
+                                                prompt: t('form.lang')) unless @user.new_record? %>
+  <%= f.input :password, label: t('form.pass') %>
+  <%= f.input :password_confirmation, label: t('form.rep_pass') %>
+  <%= f.submit t('form.submit') %>
 <% end %>
 

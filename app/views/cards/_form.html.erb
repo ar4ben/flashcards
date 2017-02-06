@@ -1,19 +1,19 @@
 <% if current_user.decks.any? %>
   <%= simple_form_for @card do |f| %>
-  	<%= f.input :original_text, label: 'Оригинальный текст' %>
-  	<%= f.input :translated_text, label: 'Перевод' %>
-    <%= f.input :img, as: :file, label: 'Загрузить изображение' %>
-    <%= f.input :img_remote_url, label: "Добавить ссылку на изображение" %>
+  	<%= f.input :original_text, label: t('form.original') %>
+  	<%= f.input :translated_text, label: t('form.translated') %>
+    <%= f.input :img, as: :file, label: t('form.img') %>
+    <%= f.input :img_remote_url, label: t('form.remote_img') %>
     <% unless @card.new_record? %>
-      <div><label>Выбрать дату следующего просмотра:</label></div>
+      <div><label><%= t('form.date') %></label></div>
       <%= f.input :review_date, as: :date, html5: true %>
       <p></p>
     <% end %>
     <%= f.select :deck_id, current_user.decks.map { |d| [d.name, d.id] }, 
-                                                prompt: "Выбрать колоду" %>
-  	<p><%= f.button :submit, "Отправить" %></p>
+                                                prompt: t('form.select_deck') %>
+  	<p><%= f.button :submit, t('form.submit') %></p>
   <% end %>
 <%else%>
-  <p>Создайте колоду, прежде чем создавать карты</p>
-  <p><%= link_to "Создать новую колоду", new_deck_path, class: "btn btn-primary" %></p>
+  <p><%= t('form.create_deck') %></p>
+  <p><%= link_to t('form.new_deck'), new_deck_path, class: "btn btn-primary" %></p>
 <% end %>

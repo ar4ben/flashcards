@@ -15,22 +15,22 @@
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
-  	        <li><%= link_to "Все карточки", cards_path %></li>
-            <li><%= link_to "Колоды", decks_path %></li>
-  	        <li><%= link_to "Добавить карточку", new_card_path %>
+  	        <li><%= link_to t('link.cards'), cards_path %></li>
+            <li><%= link_to t('link.decks'), decks_path %></li>
+  	        <li><%= link_to t('link.new_card'), new_card_path %>
             <% if current_user %>
-              <li><%= link_to "Редактировать профиль #{current_user.email}", edit_user_path(current_user.id) %></li>
-              <li><%= link_to "Выйти", :logout, method: :post %></li>
+              <li><%= link_to "#{t('link.ed_profile')} #{current_user.email}", edit_user_path(current_user.id) %></li>
+              <li><%= link_to t('link.logout'), :logout, method: :post %></li>
             <% else %>
-              <li><%= link_to "Зарегистрироваться", new_user_path %></li>
-              <li><%= link_to 'Зарегистрироваться через Github', auth_at_provider_path(:provider => :github, locale: nil) %></li>
-              <li><%= link_to "Войти", :login %></li>
+              <li><%= link_to t('link.reg'), new_user_path %></li>
+              <li><%= link_to t('link.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
+              <li><%= link_to t('link.enter'), :login %></li>
              <% end %>
   	      </ul>
   	  </nav>
 
       <h1>Флэшкарточкер</h1>
-      <%= link_to 'На главную', root_path %>
+      <%= link_to t('link.main'), root_path %>
     </header>
     <section>
       <% flash.each do |name, msg| %>
