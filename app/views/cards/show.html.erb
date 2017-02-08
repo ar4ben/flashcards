@@ -1,14 +1,14 @@
 <p><%= image_tag @card.img.url(:medium) %></p>
 <p>
-	<h3><%= t('show.original') %>:</h3>
+	<h3><%= t('.original') %>:</h3>
 	<h2><%= @card.original_text %></h2>
 </p>
 <p>
-	<h3><%= t('show.translated') %>:</h3>
+	<h3><%= t('.translated') %>:</h3>
 	<h2><%= @card.translated_text %></h2>
 </p>
 <p>
-  <h3><%= t('show.from_deck') %>:</h3> 
+  <h3><%= t('.from_deck') %>:</h3> 
   <h2><%= @card.deck.name %></h2>
 </p>
 <%= link_to t('link.main'), root_path %>

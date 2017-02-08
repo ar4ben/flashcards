@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= t :title %></title>
+  <title><%= t('.title') %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -15,21 +15,21 @@
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
-  	        <li><%= link_to t('link.cards'), cards_path %></li>
-            <li><%= link_to t('link.decks'), decks_path %></li>
-  	        <li><%= link_to t('link.new_card'), new_card_path %>
+  	        <li><%= link_to t('.cards'), cards_path %></li>
+            <li><%= link_to t('.decks'), decks_path %></li>
+  	        <li><%= link_to t('.new_card'), new_card_path %>
             <% if current_user %>
-              <li><%= link_to "#{t('link.ed_profile')} #{current_user.email}", edit_user_path(current_user.id) %></li>
-              <li><%= link_to t('link.logout'), :logout, method: :post %></li>
+              <li><%= link_to "#{t('.ed_profile')} #{current_user.email}", edit_user_path(current_user.id) %></li>
+              <li><%= link_to t('.logout'), :logout, method: :post %></li>
             <% else %>
-              <li><%= link_to t('link.reg'), new_user_path %></li>
-              <li><%= link_to t('link.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
-              <li><%= link_to t('link.enter'), :login %></li>
+              <li><%= link_to t('.reg'), new_user_path %></li>
+              <li><%= link_to t('.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
+              <li><%= link_to t('.enter'), :login %></li>
              <% end %>
   	      </ul>
   	  </nav>
 
-      <h1><%= t(:main_h1) %></h1>
+      <h1><%= t('.main_title') %></h1>
       <%= link_to t('link.main'), root_path %>
     </header>
     <section>
