@@ -9,15 +9,15 @@ class OauthsController < ApplicationController
   def callback
     provider = params[:provider]
     if login_from(provider)
-      redirect_to root_path, notice: "#{t('notice.enter')} #{provider.titleize}!"
+      redirect_to root_path, notice: "#{t('.enter')} #{provider.titleize}!"
     else
       begin
         @user = create_from(provider)
         reset_session
         auto_login(@user)
-        redirect_to root_path, notice: "#{t('notice.enter')} #{provider.titleize}!"
+        redirect_to root_path, notice: "#{t('.enter')} #{provider.titleize}!"
       rescue
-        redirect_to root_path, alert: "#{provider.titleize} - #{t('alert.login')}!"
+        redirect_to root_path, alert: "#{provider.titleize} - #{t('.login')}!"
       end
     end
   end

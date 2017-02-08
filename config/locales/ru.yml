@@ -16,6 +16,12 @@ ru:
   link:
     main: "На главную"
     back: "Назад"
+  application:
+    do_login: "Пожалуйста, войдите"
+  oauths:
+    callback:
+      enter: "Вы вошли через"
+      login: "Ошибка логина"
   cards:
     index:
       next_rev:  "Дата следующего просмотра"
@@ -56,13 +62,18 @@ ru:
     index:
       top: "Первый в мире удобный менеджер флеш-карточек. Именно так."
       rand: "Случайная карточка"
-      check: "Проверить"
+      check: "Отправить"
   user_sessions:
     form:
       pass: "Пароль"
       enter: "Войти"
     new:
       enter: "Войти"
+    create:
+      success: "Успешный вход"
+      login: "Ошибка логина"
+    destroy:
+      exit: "Выход"
   users:
     form:
       lang: "Язык"
@@ -74,6 +85,8 @@ ru:
       profile: "Редактировать профиль"
     new:
       reg: "Зарегистрироваться"
+    set_current_deck:
+      wrong: "Что-то пошло не так"      
   layouts:
     application:
       title: "Флешкарточкер"

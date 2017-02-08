@@ -16,6 +16,12 @@ en:
   link:
     main: "To main"
     back: "Back"
+  application:
+    do_login: "Please Log in"
+  oauths:
+    callback:
+      enter: "You logged through"
+      login: "Login failed"
   cards:
     index:
       next_rev:  "Next preview"
@@ -63,6 +69,11 @@ en:
       enter: "Enter"
     new:
       enter: "Enter"
+    create:
+      success: "You successfully logged"
+      login: "Login failed"
+    destroy:
+      exit: "Exit"
   users:
     form:
       lang: "Language"
@@ -74,6 +85,8 @@ en:
       profile: "Edit profile"
     new:
       reg: "Registration"
+    set_current_deck:
+      wrong: "Something was wrong"
   layouts:
     application:
       title: "Flashcarder"

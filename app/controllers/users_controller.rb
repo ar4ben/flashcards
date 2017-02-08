@@ -31,7 +31,7 @@ class UsersController < ApplicationController
     if @user.update_attribute(:deck_id, params[:deck_id])
       redirect_to deck_path(params[:deck_id])
     else
-      redirect_to root_path, notice: t('notice.wrong')
+      redirect_to root_path, notice: t('.wrong')
     end
   end
 
