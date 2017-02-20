@@ -13,7 +13,7 @@ describe 'Translation check' do
   context "with right original text" do
     it "should be success" do
       fill_in("random_card_original_text", with: @card.original_text)
-      click_button "Проверить"
+      click_button "Отправить"
       expect(page).to have_content("Правильно!")
     end
   end
@@ -21,7 +21,7 @@ describe 'Translation check' do
   context "with wrong original text" do
     it "should be failed" do
       fill_in("random_card_original_text", with: "бежать")
-      click_button "Проверить"
+      click_button "Отправить"
       expect(page).to have_content("Неправильно!")
     end
   end

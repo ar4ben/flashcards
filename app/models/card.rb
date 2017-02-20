@@ -25,7 +25,7 @@ class Card < ActiveRecord::Base
 
   def translated_should_be_not_equal_to_original
     if original_text.casecmp(translated_text).zero?
-      errors.add(:translated_text, "перевод не может быть равен начальному тексту")
+      errors.add(:translated_text, I18n.t('error.not_equal'))
     end
   end
 

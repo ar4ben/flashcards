@@ -3,11 +3,11 @@
 	<p>
 		<span><%= card.original_text %> | </span>
 		<span><%= card.translated_text %> | </span>
-		<span>Следующий просмотр <%= card.review_date.strftime("%d/%m/%Y") %></span>
+		<span><%= t('.next_rev') %> <%= card.review_date.strftime("%d/%m/%Y") %></span>
 		<div>
-			<%= link_to "посмотреть карточку | ", card_path(card) %>
-			<%= link_to "редактировать карточку | ", edit_card_path(card) %>
-			<%= link_to "удалить карточку" , card_path(card), method: :delete, 
+			<%= link_to "#{t('.card')} | ", card_path(card) %>
+			<%= link_to "#{t('.ed_card')} | ", edit_card_path(card) %>
+			<%= link_to "#{t('.del_card')}" , card_path(card), method: :delete, 
 															  data: { confirm: 'Are you sure?' } %>
 		</div>
 	</p>

@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Флэшкарточкер</title>
+  <title><%= t('.title') %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <section id="container">
-
+    <% unless current_user %>
+      <%= link_to("ru", root_url(locale: :ru), class: "btn btn-default") %>
+      <%= link_to("en", root_url(locale: :en), class: "btn btn-default") %>
+    <% end %>
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
-  	        <li><%= link_to "Все карточки", cards_path %></li>
-            <li><%= link_to "Колоды", decks_path %></li>
-  	        <li><%= link_to "Добавить карточку", new_card_path %>
+  	        <li><%= link_to t('.cards'), cards_path %></li>
+            <li><%= link_to t('.decks'), decks_path %></li>
+  	        <li><%= link_to t('.new_card'), new_card_path %>
             <% if current_user %>
-              <li><%= link_to "Редактировать профиль #{current_user.email}", edit_user_path(current_user.id) %></li>
-              <li><%= link_to "Выйти", :logout, method: :post %></li>
+              <li><%= link_to "#{t('.ed_profile')} #{current_user.email}", edit_user_path(current_user.id) %></li>
+              <li><%= link_to t('.logout'), :logout, method: :post %></li>
             <% else %>
-              <li><%= link_to "Зарегистрироваться", new_user_path %></li>
-              <li><%= link_to 'Зарегистрироваться через Github', auth_at_provider_path(:provider => :github) %></li>
-              <li><%= link_to "Войти", :login %></li>
+              <li><%= link_to t('.reg'), new_user_path %></li>
+              <li><%= link_to t('.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
+              <li><%= link_to t('.enter'), :login %></li>
              <% end %>
   	      </ul>
   	  </nav>
 
-      <h1>Флэшкарточкер</h1>
-      <%= link_to 'На главную', root_path %>
+      <h1><%= t('.main_title') %></h1>
+      <%= link_to t('link.main'), root_path %>
     </header>
     <section>
       <% flash.each do |name, msg| %>

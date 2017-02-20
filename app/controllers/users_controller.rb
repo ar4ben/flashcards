@@ -31,14 +31,14 @@ class UsersController < ApplicationController
     if @user.update_attribute(:deck_id, params[:deck_id])
       redirect_to deck_path(params[:deck_id])
     else
-      redirect_to root_path, notice: 'Что-то пошло не так'
+      redirect_to root_path, notice: t('.wrong')
     end
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:email, :password, :password_confirmation)
+    params.require(:user).permit(:email, :password, :password_confirmation, :locale)
   end
 
   def set_user

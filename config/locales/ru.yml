@@ -1,0 +1,107 @@
+ru:
+  activerecord:
+    models:
+      card: Карта
+      deck: Колода
+    attributes:
+      card:
+        original_text: "Оригинальный текст"
+        translated_text: "Перевод"
+        img: "Загрузить изображение"
+        img_remote_url: "Добавить сылку на изображение"
+      deck:
+        name: "Название колоды"
+      user:
+        email: "@email"
+  link:
+    main: "На главную"
+    back: "Назад"
+  application:
+    do_login: "Пожалуйста, войдите"
+  oauths:
+    callback:
+      enter: "Вы вошли через"
+      login: "Ошибка логина"
+  cards:
+    index:
+      next_rev:  "Дата следующего просмотра"
+      card: "показать карточку"
+      ed_card: "редактировать карточку"
+      del_card: "удалить карточку"
+    new:
+      card: "Новая карточка"
+    show:
+      original: "оригинальный текст"
+      translated: "перевод"
+      from_deck: "из колоды"
+    form:
+      date: "Выберите дату следующего просмотра:"
+      select_deck: "Выберите колоду"
+      submit: "Отправить"
+      create_deck: "Создайте колоду перед тем как добавлять карточку"
+      new_deck: "Создать новую колоду"
+  decks:
+    edit:
+      deck: "Редактировать колоду"
+    index:
+      decks: "Колоды"
+      new_deck: "создать новую колоду"
+      ed_deck: "редактировать колоду"
+      deck: "показать колоду"
+      del_deck: "удалить колоду"
+      set_curr: "сделать текущей"
+    new:
+      deck: "Новая колода"
+    show:
+      cards: "Карты колоды"
+      next_rev: "Дата следующего просмотра"
+      card: "показать карточку"
+      ed_card: "редактировать карточку"
+      del_card: "удалить карточку"
+  home:
+    index:
+      top: "Первый в мире удобный менеджер флеш-карточек. Именно так."
+      rand: "Случайная карточка"
+      check: "Отправить"
+  user_sessions:
+    form:
+      pass: "Пароль"
+      enter: "Войти"
+    new:
+      enter: "Войти"
+    create:
+      success: "Успешный вход"
+      login: "Ошибка логина"
+    destroy:
+      exit: "Выход"
+  users:
+    form:
+      lang: "Язык"
+      pass: "Пароль"
+      rep_pass: "Подтвердите пароль"
+      enter: "Войти"
+      submit: "Обновить"
+    edit:
+      profile: "Редактировать профиль"
+    new:
+      reg: "Зарегистрироваться"
+    set_current_deck:
+      wrong: "Что-то пошло не так"      
+  layouts:
+    application:
+      title: "Флешкарточкер"
+      main_title: "Флешкарточкер"
+      cards: "Все карты"
+      decks: "Колоды"
+      new_card: "Добавить карточку"
+      ed_profile: "Редактировать профиль"
+      logout: "Выйти"
+      reg: "Зарегистрироваться"
+      github: "Зарегистрироваться Github"
+      enter: "Войти"
+  interactors:
+    compare_text:
+      right: "Правильно!"
+      wrong: "Неправильно!"
+      guess: "Судя по всему, под %{answer} подразумевалось %{original}.
+              Это правильный перевод для %{translated}!"

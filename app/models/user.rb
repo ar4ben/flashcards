@@ -14,4 +14,10 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 3 }
   validates :password, confirmation: true
   validates :password_confirmation, presence: true
+  validates :locale, presence: true
+  before_create :set_default
+
+  def set_default
+    self.locale = I18n.default_locale
+  end
 end
