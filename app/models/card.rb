@@ -12,7 +12,7 @@ class Card < ActiveRecord::Base
   has_attached_file :img, styles: { medium: "360x360>", thumb: "100x100>" }, default_url: "missing.png"
   validates_attachment_content_type :img, content_type: %r{\Aimage\/.*\z}
 
-  scope :random, -> { where('review_date <= ?', Time.now).order("RANDOM()").limit(1) }
+  scope :random, -> { where('review_date < ? OR (updated_at > ? AND quality < 4)', Time.now, Date.current).order("RANDOM()").limit(1) }
 
   def img_remote_url=(url_value)
     if url_value.present?
