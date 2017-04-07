@@ -4,6 +4,6 @@ $(document).ready(function(){
     i = i + 2;
     $('#random_card_time').attr('value', i);
     setTimeout( change_counter, 1000 );
-  };
+  }
   setTimeout( change_counter, 1000 );
-})
+});
