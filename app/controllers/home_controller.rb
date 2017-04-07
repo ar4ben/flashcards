@@ -7,7 +7,7 @@ class HomeController < ApplicationController
   end
 
   def check
-    result = CompareOriginTextSupermemo2.call(
+    result = CompareOriginText.call(
       params: cards_params
     )
     redirect_to :back, notice: result.notice

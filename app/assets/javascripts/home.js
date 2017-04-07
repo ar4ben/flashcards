@@ -6,4 +6,4 @@ $(document).ready(function(){
     setTimeout( change_counter, 1000 );
   };
   setTimeout( change_counter, 1000 );
-});
+})
