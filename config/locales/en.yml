@@ -63,6 +63,7 @@ en:
       top: "First convenient flash cards manager in the world. Exactly"
       rand: "Random card"
       check: "Check"
+      do_login: "Please Log in"
   user_sessions:
     form:
       pass: "Password"

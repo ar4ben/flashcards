@@ -16,6 +16,6 @@ class HomeController < ApplicationController
   private
 
   def cards_params
-    params.require(:random_card).permit(:original_text, :card_id)
+    params.require(:random_card).permit(:original_text, :card_id, :time)
   end
 end
