@@ -144,6 +144,7 @@ GEM
     multi_json (1.12.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    newrelic_rpm (4.0.0.332)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -226,6 +227,8 @@ GEM
     rake (11.2.2)
     rdoc (4.2.2)
       json (~> 1.4)
+    rollbar (2.14.1)
+      multi_json
     rspec-core (3.5.3)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -317,11 +320,13 @@ DEPENDENCIES
   jquery-rails
   letter_opener
   levenshtein (~> 0.2.2)
+  newrelic_rpm
   paperclip
   pg
   rails (= 4.2.1)
   rails-i18n (~> 4.0.0)
   rails_12factor
+  rollbar
   rspec-rails (~> 3.5)
   rubocop
   sass-rails (~> 5.0)

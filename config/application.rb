@@ -34,11 +34,11 @@ module Flashcards
       }
     }
     config.action_mailer.smtp_settings = {
-      address:              'smtp.gmail.com',
+      address:              'smtp.mailgun.org',
       port:                 587,
-      domain:               'gmail.com',
-      user_name:            ENV["GMAIL_USR"],
-      password:             ENV["GMAIL_PASS"],
+      domain:               'sandbox6167335e4e594a0a95c9056665d6c16b.mailgun.org',
+      user_name:            ENV["MAILGUN_USR"],
+      password:             ENV["MAILGUN_PASS"],
       authentication:       'plain',
       enable_starttls_auto: true
     }

@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "flash@cards.com"
+  default from: "postmaster@flashcards.com"
   layout 'mailer'
 end

@@ -33,6 +33,8 @@ gem 'levenshtein', '~> 0.2.2'
 gem 'whenever', require: false
 gem 'http_accept_language'
 gem 'rails-i18n', '~> 4.0.0'
+gem 'rollbar'
+gem 'newrelic_rpm'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
