@@ -33,10 +33,10 @@
       <%= link_to t('link.main'), root_path %>
     </header>
     <section>
-      <% flash.each do |name, msg| %>
-        <%= content_tag :p, msg, class: "alert-info" %>
-        <% end %>
-    	<%= yield %>
+      <div id="notice">
+        <%= render :partial => 'layouts/flash' , :locals => { :flash => flash } %>
+      </div> 
+    	<div id="main_content"><%= yield %></div>
     </section>
 
   </section>

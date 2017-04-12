@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var ready = function(){
   var i = 0;
   function change_counter(){
     i = i + 2;
@@ -6,4 +6,6 @@ $(document).ready(function(){
     setTimeout( change_counter, 1000 );
   }
   setTimeout( change_counter, 1000 );
-});
+};
+$(document).ready(ready);
+$(document).on('page:change', ready });
