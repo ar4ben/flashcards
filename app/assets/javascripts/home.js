@@ -1,7 +1,7 @@
 var ready = function(){
   var i = 0;
   function change_counter(){ 
-    $(document).ajaxSuccess( function() { i = 0 } )
+    $(document).ajaxSuccess( function() { i = 0 } );
     i = i + 1;
     $('#random_card_time').attr('value', i);
     setTimeout( change_counter, 1000 );
