@@ -7,12 +7,12 @@
     <span><%= card.translated_text %> | </span>
     <span><%= t('.next_rev') %> <%= card.review_date.strftime("%d/%m/%Y") %></span>
     <div>
-      <%= link_to "#{t('.card')} | ", card_path(card) %>
-      <%= link_to "#{t('.ed_card')} | ", edit_card_path(card) %>
-      <%= link_to "#{t('.del_card')}" , card_path(card), method: :delete, 
+      <%= link_to "#{t('.card')} | ",dashboard_card_path(card) %>
+      <%= link_to "#{t('.ed_card')} | ", edit_dashboard_card_path(card) %>
+      <%= link_to "#{t('.del_card')}" ,dashboard_card_path(card), method: :delete, 
                                 data: { confirm: 'Are you sure?' } %>
     </div>
   </p>
 <%end%>
 
-<%= link_to t('link.main'), root_path %>
+<%= link_to t('link.main'), dashboard_root_path %>

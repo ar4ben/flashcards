@@ -9,28 +9,28 @@
 <body>
   <section id="container">
     <% unless current_user %>
-      <%= link_to("ru", root_url(locale: :ru), class: "btn btn-default") %>
-      <%= link_to("en", root_url(locale: :en), class: "btn btn-default") %>
+      <%= link_to("ru", dashboard_root_url(locale: :ru), class: "btn btn-default") %>
+      <%= link_to("en", dashboard_root_url(locale: :en), class: "btn btn-default") %>
     <% end %>
     <header class="clearfix">
   	  <nav class="navbar navbar-default">
   	      <ul class="nav navbar-nav navigation-links">
-  	        <li><%= link_to t('.cards'), cards_path %></li>
-            <li><%= link_to t('.decks'), decks_path %></li>
-  	        <li><%= link_to t('.new_card'), new_card_path %>
+  	        <li><%= link_to t('.cards'), dashboard_cards_path %></li>
+            <li><%= link_to t('.decks'), dashboard_decks_path %></li>
+  	        <li><%= link_to t('.new_card'), new_dashboard_card_path %>
             <% if current_user %>
-              <li><%= link_to "#{t('.ed_profile')} #{current_user.email}", edit_user_path(current_user.id) %></li>
-              <li><%= link_to t('.logout'), :logout, method: :post %></li>
+              <li><%= link_to "#{t('.ed_profile')} #{current_user.email}", edit_dashboard_user_path(current_user.id) %></li>
+              <li><%= link_to t('.logout'), :dashboard_logout, method: :post %></li>
             <% else %>
-              <li><%= link_to t('.reg'), new_user_path %></li>
+              <li><%= link_to t('.reg'), new_dashboard_user_path %></li>
               <li><%= link_to t('.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
-              <li><%= link_to t('.enter'), :login %></li>
+              <li><%= link_to t('.enter'), :dashboard_login %></li>
              <% end %>
   	      </ul>
   	  </nav>
 
       <h1><%= t('.main_title') %></h1>
-      <%= link_to t('link.main'), root_path %>
+      <%= link_to t('link.main'), dashboard_root_path %>
     </header>
     <section>
       <div id="notice">

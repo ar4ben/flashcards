@@ -1,4 +1,4 @@
-class UserSessionsController < ApplicationController
+class Dashboard::UserSessionsController < ApplicationController
   skip_before_action :require_login, except: [:destroy]
 
   def new
@@ -7,7 +7,7 @@ class UserSessionsController < ApplicationController
 
   def create
     if login(session_params[:email], session_params[:password])
-      redirect_back_or_to(root_path, notice: t('.success'))
+      redirect_back_or_to(dashboard_root_path, notice: t('.success'))
     else
       flash.now[:alert] = t('.login')
       render action: 'new'
@@ -16,12 +16,12 @@ class UserSessionsController < ApplicationController
 
   def destroy
     logout
-    redirect_to(root_path, notice: t('.exit'))
+    redirect_to(dashboard_root_path, notice: t('.exit'))
   end
 
   private
 
   def session_params
-    params.require(:user_sessions).permit(:email, :password)
+    params.require(:user_sessions_).permit(:email, :password)
   end
 end

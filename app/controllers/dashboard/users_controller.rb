@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Dashboard::UsersController < ApplicationController
   skip_before_action :require_login, only: [:index, :new, :create]
   before_action :set_user, only: [:edit, :update, :set_current_deck]
 
@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       login(user_params[:email], user_params[:password])
-      redirect_to root_path
+      redirect_to dashboard_root_path
     else
       render 'new'
     end
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update_attributes(user_params)
-      redirect_to root_path
+      redirect_to dashboard_root_path
     else
       render 'edit'
     end
@@ -29,9 +29,9 @@ class UsersController < ApplicationController
 
   def set_current_deck
     if @user.update_attribute(:deck_id, params[:deck_id])
-      redirect_to deck_path(params[:deck_id])
+      redirect_to dashboard_deck_path(params[:deck_id])
     else
-      redirect_to root_path, notice: t('.wrong')
+      redirect_to dashboard_root_path, notice: t('.wrong')
     end
   end
 
@@ -43,6 +43,6 @@ class UsersController < ApplicationController
 
   def set_user
     @user = User.find(params[:id])
-    redirect_to root_path unless @user == current_user
+    redirect_to dashboard_root_path unless @user == current_user
   end
 end

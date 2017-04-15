@@ -1,4 +1,4 @@
-class DecksController < ApplicationController
+class Dashboard::DecksController < ApplicationController
   before_action :set_deck, only: [:edit, :show, :update, :destroy]
 
   def index
@@ -15,7 +15,7 @@ class DecksController < ApplicationController
   def create
     @deck = current_user.decks.new(decks_params)
     if @deck.save
-      redirect_to root_path
+      redirect_to dashboard_root_path
     else
       render 'new'
     end
@@ -34,7 +34,7 @@ class DecksController < ApplicationController
 
   def destroy
     @deck.destroy
-    redirect_to decks_path
+    redirect_to dashboard_decks_path
   end
 
   private
@@ -45,6 +45,6 @@ class DecksController < ApplicationController
 
   def set_deck
     @deck = current_user.decks.find_by(id: params[:id])
-    redirect_to root_path unless @deck
+    redirect_to dashboard_root_path unless @deck
   end
 end

@@ -1,4 +1,4 @@
-class CardsController < ApplicationController
+class Dashboard::CardsController < ApplicationController
   before_action :set_card, only: [:edit, :show, :update, :destroy]
 
   def index
@@ -34,7 +34,7 @@ class CardsController < ApplicationController
 
   def destroy
     @card.destroy
-    redirect_to cards_path
+    redirect_to dashboard_cards_path
   end
 
   private
@@ -45,6 +45,6 @@ class CardsController < ApplicationController
 
   def set_card
     @card = current_user.cards.find_by(id: params[:id])
-    redirect_to root_path unless @card
+    redirect_to dashboard_root_path unless @card
   end
 end

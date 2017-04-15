@@ -1,0 +1,14 @@
+<h2><%= t(".decks") %></h2>
+<p><%= link_to t('.new_deck'), new_dashboard_deck_path, class: "btn btn-primary" %></p>
+<% @decks.each do |deck| %>
+	<p>
+		<span><%= deck.name %></span>
+		<div>
+      <%= link_to "#{t('.deck')} | ", dashboard_deck_path(deck) %>
+			<%= link_to "#{t('.ed_deck')} | ", edit_dashboard_deck_path(deck) %>
+			<%= link_to "#{t('.del_deck')} | " , dashboard_deck_path(deck), method: :delete, 
+															  data: { confirm: 'Are you sure?' } %>
+      <%= link_to "#{t('.set_curr')}", set_dashboard_deck_path(current_user, deck.id), method: :put %>
+		</div>
+	</p>
+<%end%>
