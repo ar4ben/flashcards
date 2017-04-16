@@ -26,7 +26,7 @@ class Dashboard::DecksController < ApplicationController
 
   def update
     if @deck.update(decks_params)
-      redirect_to @deck
+      redirect_to [:dashboard, @deck]
     else
       render 'edit'
     end

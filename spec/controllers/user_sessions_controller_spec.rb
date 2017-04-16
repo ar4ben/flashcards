@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe UserSessionsController, type: :controller do
+RSpec.describe Home::UserSessionsController, type: :controller do
   before(:each) do
     @user = create(:user)
   end

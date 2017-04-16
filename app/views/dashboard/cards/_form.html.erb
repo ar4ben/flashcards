@@ -1,5 +1,5 @@
 <% if current_user.decks.any? %>
-  <%= simple_form_for @card do |f| %>
+  <%= simple_form_for [:dashboard, @card] do |f| %>
   	<%= f.input :original_text %>
   	<%= f.input :translated_text %>
     <%= f.input :img, as: :file %>

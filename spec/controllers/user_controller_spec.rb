@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe UsersController, type: :controller do
+RSpec.describe Dashboard::UsersController, type: :controller do
 
   before(:each) do
     users = create_list(:user, 2)

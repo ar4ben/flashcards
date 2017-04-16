@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe CardsController, type: :controller do
+RSpec.describe Dashboard::CardsController, type: :controller do
 
   before(:each) do
     users = create_list(:user, 2)

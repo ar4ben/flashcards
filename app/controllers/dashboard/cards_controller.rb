@@ -15,7 +15,7 @@ class Dashboard::CardsController < ApplicationController
   def create
     @card = current_user.cards.new(cards_params)
     if @card.save
-      redirect_to @card
+      redirect_to [:dashboard, @card]
     else
       render 'new'
     end
@@ -26,7 +26,7 @@ class Dashboard::CardsController < ApplicationController
 
   def update
     if @card.update(cards_params)
-      redirect_to @card
+      redirect_to [:dashboard, @card]
     else
       render 'edit'
     end

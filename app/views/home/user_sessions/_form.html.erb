@@ -1,4 +1,4 @@
-<%= simple_form_for :user_sessions_, { url: home_user_sessions_path } do |f| %>
+<%= simple_form_for :user_sessions, { url: home_user_sessions_path } do |f| %>
   <%= f.input :email, label: '@email' %>
   <%= f.input :password, label: t('.pass') %>
   <%= f.submit t('.enter') %>
