@@ -65,17 +65,6 @@ en:
         rand: "Random card"
         check: "Check"
         do_login: "Please Log in"
-    user_sessions:
-      form:
-        pass: "Password"
-        enter: "Enter"
-      new:
-        enter: "Enter"
-      create:
-        success: "You successfully logged"
-        login: "Login failed"
-      destroy:
-        exit: "Exit"
     users:
       form:
         lang: "Language"
@@ -89,6 +78,18 @@ en:
         reg: "Registration"
       set_current_deck:
         wrong: "Something was wrong"
+  home:
+    user_sessions:
+      form:
+        pass: "Password"
+        enter: "Enter"
+      new:
+        enter: "Enter"
+      create:
+        success: "You successfully logged"
+        login: "Login failed"
+      destroy:
+        exit: "Exit"
   layouts:
     application:
       title: "Flashcarder"

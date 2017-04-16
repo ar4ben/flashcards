@@ -65,17 +65,6 @@ ru:
         rand: "Случайная карточка"
         check: "Отправить"
         do_login: "Пожалуйста, войдите"
-    user_sessions:
-      form:
-        pass: "Пароль"
-        enter: "Войти"
-      new:
-        enter: "Войти"
-      create:
-        success: "Успешный вход"
-        login: "Ошибка логина"
-      destroy:
-        exit: "Выход"
     users:
       form:
         lang: "Язык"
@@ -88,7 +77,19 @@ ru:
       new:
         reg: "Зарегистрироваться"
       set_current_deck:
-        wrong: "Что-то пошло не так"      
+        wrong: "Что-то пошло не так"
+  home:
+    user_sessions:
+      form:
+        pass: "Пароль"
+        enter: "Войти"
+      new:
+        enter: "Войти"
+      create:
+        success: "Успешный вход"
+        login: "Ошибка логина"
+      destroy:
+        exit: "Выход"
   layouts:
     application:
       title: "Флешкарточкер"

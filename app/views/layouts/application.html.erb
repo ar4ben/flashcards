@@ -20,11 +20,11 @@
   	        <li><%= link_to t('.new_card'), new_dashboard_card_path %>
             <% if current_user %>
               <li><%= link_to "#{t('.ed_profile')} #{current_user.email}", edit_dashboard_user_path(current_user.id) %></li>
-              <li><%= link_to t('.logout'), :dashboard_logout, method: :post %></li>
+              <li><%= link_to t('.logout'), :home_logout, method: :post %></li>
             <% else %>
               <li><%= link_to t('.reg'), new_dashboard_user_path %></li>
               <li><%= link_to t('.github'), auth_at_provider_path(:provider => :github, locale: nil) %></li>
-              <li><%= link_to t('.enter'), :dashboard_login %></li>
+              <li><%= link_to t('.enter'), :home_login %></li>
              <% end %>
   	      </ul>
   	  </nav>

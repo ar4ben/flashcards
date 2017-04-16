@@ -1,4 +1,4 @@
-<%= simple_form_for @user do |f| %>
+<%= simple_form_for [:dashboard, @user] do |f| %>
   <%= f.input :email %>
   <%= f.select(:locale, I18n.available_locales.map { |l| [l, l] }, 
                                                 prompt: t('.lang')) unless @user.new_record? %>
