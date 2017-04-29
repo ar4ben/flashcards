@@ -33,6 +33,7 @@ gem 'http_accept_language'
 gem 'rails-i18n', '~> 4.0.0'
 gem 'rollbar'
 gem 'newrelic_rpm'
+gem 'puma'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -44,6 +45,14 @@ gem 'newrelic_rpm'
 # Access an IRB console on exception pages or by using <%= console %> in views
 gem 'web-console', '~> 2.0', group: :development
 gem 'rails_12factor', group: :production
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano3-puma'
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rvm'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
