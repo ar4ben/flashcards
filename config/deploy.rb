@@ -3,7 +3,7 @@ lock "3.8.1"
 
 set :application, 'flashcards'
 set :repo_url, 'https://github.com/ar4ben/flashcards.git'
-set :branch, :master
+set :branch, :twenteeth
 set :deploy_to, '/home/deploy/flashcards'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}

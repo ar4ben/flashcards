@@ -108,3 +108,5 @@ en:
       wrong: "Incorrect!"
       guess: "It seems like under the word %{answer} you meant %{original}.
             This is correct translation for %{translated}!"
+  error:
+      not_equal: "Values can not be equal"
