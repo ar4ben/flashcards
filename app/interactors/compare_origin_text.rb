@@ -31,7 +31,7 @@ class CompareOriginText
 
   def handle_answer(correct)
     @quality = count_quality(correct)
-    if @card.updated_at.today?
+    if @card.updated_at.today? and not @card.created_at.today?
       @card.update(quality: @quality)
     else
       update_params = CardNextReview.new(@card.repetition, @quality, @card.ef).calculate
