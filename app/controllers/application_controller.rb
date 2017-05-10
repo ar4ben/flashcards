@@ -23,6 +23,6 @@ class ApplicationController < ActionController::Base
   end
 
   def not_authenticated
-    redirect_to login_path, alert: t('.do_login')
+    redirect_to home_login_path, alert: t('.do_login')
   end
 end

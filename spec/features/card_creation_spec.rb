@@ -5,7 +5,7 @@ describe 'Card creation' do
     @user = create(:user)
     @deck = create(:deck, user: @user)
     login_user(@user, "password")
-    visit new_card_path
+    visit new_dashboard_card_path
   end
 
   context "should work" do

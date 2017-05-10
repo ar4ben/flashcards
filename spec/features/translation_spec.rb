@@ -7,7 +7,7 @@ describe 'Translation check' do
     @card = create(:card, user: @user, deck: @deck)
     @card.update_attribute(:review_date, Time.now)
     login_user(@user, "password")
-    visit root_path
+    visit dashboard_root_path
   end
 
   context "with right original text" do

@@ -22,72 +22,74 @@ en:
     callback:
       enter: "You logged through"
       login: "Login failed"
-  cards:
-    index:
-      next_rev:  "Next preview"
-      card: "show card"
-      ed_card: "edit card"
-      del_card: "delete card"
-    new:
-      card: "New card"
-    show:
-      original: "text"
-      translated: "translation"
-      from_deck: "from deck"
-    form:
-      date: "Choose next review date:"
-      select_deck: "Select deck"
-      submit: "Submit"
-      create_deck: "Create a deck before card creation"
-      new_deck: "Create new deck"
-  decks:
-    edit:
-      deck: "Edit deck"
-    index:
-      decks: "Decks"
-      new_deck: "create new deck"
-      ed_deck: "edit deck"
-      deck: "show deck"
-      del_deck: "delete deck"
-      set_curr: "set current"
-    new:
-      deck: "New deck"
-    show:
-      cards: "Deck cards"
-      next_rev: "Next preview"
-      card: "show card"
-      ed_card: "edit card"
-      del_card: "delete card"
+  dashboard:
+    cards:
+      index:
+        next_rev:  "Next preview"
+        card: "show card"
+        ed_card: "edit card"
+        del_card: "delete card"
+      new:
+        card: "New card"
+      show:
+        original: "text"
+        translated: "translation"
+        from_deck: "from deck"
+      form:
+        date: "Choose next review date:"
+        select_deck: "Select deck"
+        submit: "Submit"
+        create_deck: "Create a deck before card creation"
+        new_deck: "Create new deck"
+    decks:
+      edit:
+        deck: "Edit deck"
+      index:
+        decks: "Decks"
+        new_deck: "create new deck"
+        ed_deck: "edit deck"
+        deck: "show deck"
+        del_deck: "delete deck"
+        set_curr: "set current"
+      new:
+        deck: "New deck"
+      show:
+        cards: "Deck cards"
+        next_rev: "Next preview"
+        card: "show card"
+        ed_card: "edit card"
+        del_card: "delete card"
+    home:
+      index:
+        top: "First convenient flash cards manager in the world. Exactly"
+        rand: "Random card"
+        check: "Check"
+        do_login: "Please Log in"
+    users:
+      form:
+        lang: "Language"
+        pass: "Password"
+        rep_pass: "Confirm password"
+        enter: "Enter"
+        submit: "Update"
+      edit:
+        profile: "Edit profile"
+      new:
+        reg: "Registration"
+      set_current_deck:
+        wrong: "Something was wrong"
   home:
-    index:
-      top: "First convenient flash cards manager in the world. Exactly"
-      rand: "Random card"
-      check: "Check"
-      do_login: "Please Log in"
-  user_sessions:
-    form:
-      pass: "Password"
-      enter: "Enter"
-    new:
-      enter: "Enter"
-    create:
-      success: "You successfully logged"
-      login: "Login failed"
-    destroy:
-      exit: "Exit"
-  users:
-    form:
-      lang: "Language"
-      pass: "Password"
-      rep_pass: "Confirm password"
-      enter: "Enter"
-      submit: "Update"
-    edit:
-      profile: "Edit profile"
-    new:
-      reg: "Registration"
-    set_current_deck:
-      wrong: "Something was wrong"
+    user_sessions:
+      form:
+        pass: "Password"
+        enter: "Enter"
+      new:
+        enter: "Enter"
+      create:
+        success: "You successfully logged"
+        login: "Login failed"
+      destroy:
+        exit: "Exit"
   layouts:
     application:
       title: "Flashcarder"
@@ -106,3 +108,5 @@ en:
       wrong: "Incorrect!"
       guess: "It seems like under the word %{answer} you meant %{original}.
             This is correct translation for %{translated}!"
+  error:
+      not_equal: "Values can not be equal"
